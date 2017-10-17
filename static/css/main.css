@@ -1,0 +1,38 @@
+/*General*/
+@font-face {
+    font-family: 'Maquette';
+    src: url("../font/ARSMaquettePro-Light.otf") format("opentype");
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Maquette', 'Comic Sans MS', sans-serif;
+}
+
+/*Header*/
+#logo{
+  margin: 20px;
+}
+
+main.wrapper{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.page{
+  height: 100vh;
+}
+#one{
+  background-color: tomato;
+}
+#two{
+  background-color: salmon;
+}
+#three{
+  background-color: lightgreen;
+}
+#four{
+  background-color: lightblue;
+}
+#five{
+  background-color: lightyellow;
+}

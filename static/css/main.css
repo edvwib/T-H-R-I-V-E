@@ -21,17 +21,23 @@ main.wrapper{
 .page{
   height: 75vh;
 }
-#one{
+#splashpage{
   display: grid;
-  background-color: tomato;
+  grid-template: repeat(12, 1fr) / repeat(12, 1fr);
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(12, 1fr);
+
+  background-color: tomato;
+  background-image: url('../../img/PER3772.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-#one #text{
+#splashpage #text{
   grid-column: 5 / 9;
-  grid-row: 3 / 9;
+  grid-row: 6 / 8;
+
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 #two{
   background-color: salmon;

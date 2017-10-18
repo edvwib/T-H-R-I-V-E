@@ -6,7 +6,7 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Maquette', 'Comic Sans MS', sans-serif;
+  font-family: 'Maquette', sans-serif;
 }
 
 /*Header*/
@@ -31,6 +31,7 @@ main.wrapper{
   background-image: url('../../img/PER3772.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 #splashpage #text{
   grid-column: 5 / 9;

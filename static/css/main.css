@@ -10,8 +10,27 @@
 }
 
 /*Header*/
+nav{
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 10vh;
+
+  background-color: rgba(0, 0, 0, 0.25);
+}
+nav.large{
+  height: 10vh;
+}
+nav.small{
+  height: 6vh;
+}
 #logo{
   margin: 20px;
+  height: 35%;
+}
+nav.small #logo{margin: 12px;}
+nav, #logo{
+  transition: all 1s;
 }
 
 main.wrapper{
@@ -19,37 +38,26 @@ main.wrapper{
   grid-template-columns: repeat(12, 1fr);
 }
 .page{
-  height: 75vh;
-}
-#splashpage{
-  display: grid;
-  grid-template: repeat(12, 1fr) / repeat(12, 1fr);
   grid-column-start: 1;
   grid-column-end: 13;
-
+  height: 110vh;
+}
+#splashpage{
   background-color: tomato;
-  background-image: url('../../img/PER3772.jpg');
+  /*background-image: url('../../img/PER3772.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed;*/
 }
-#splashpage #text{
-  grid-column: 5 / 9;
-  grid-row: 6 / 8;
-
-  color: white;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 10px;
-}
-#two{
-  background-color: salmon;
-}
-#three{
+#gallery{
   background-color: lightgreen;
 }
-#four{
+#about{
+  background-color: salmon;
+}
+#compare{
   background-color: lightblue;
 }
-#five{
+#store{
   background-color: lightyellow;
 }

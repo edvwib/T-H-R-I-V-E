@@ -14,23 +14,38 @@ nav{
   position: fixed;
   top: 0;
   width: 100vw;
-  height: 10vh;
+  height: 100px;
 
-  background-color: rgba(0, 0, 0, 0.25);
-}
-nav.large{
-  height: 10vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  background-color: rgba(255, 255, 255, 0.25);
 }
 nav.small{
-  height: 6vh;
+  height: 60px;
 }
 #logo{
-  margin: 24px;
-  height: 35%;
+  grid-column-start: 2;
+  grid-column-end: 3;
+
+  height: 100%;
 }
-nav.small #logo{margin: 14px;}
+nav.large #logo{
+  background-image: url('../../img/logo/logo_text.svg');
+  background-repeat: no-repeat;
+
+  margin-left: 42px;
+  margin-top: 24px;
+}
+nav.small #logo{
+  background-image: url('../../img/logo/logo_symbol.svg');
+  background-repeat: no-repeat;
+
+  margin-left: 50px;
+  height: 50%;
+}
 nav, #logo{
-  transition: all 1s;
+  transition: height 1s;
 }
 
 main.wrapper{

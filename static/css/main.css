@@ -25,10 +25,10 @@ nav.small{
   height: 6vh;
 }
 #logo{
-  margin: 20px;
+  margin: 24px;
   height: 35%;
 }
-nav.small #logo{margin: 12px;}
+nav.small #logo{margin: 14px;}
 nav, #logo{
   transition: all 1s;
 }

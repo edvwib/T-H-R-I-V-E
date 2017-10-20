@@ -14,35 +14,32 @@ nav{
   position: fixed;
   top: 0;
   width: 100vw;
-  height: 100px;
+  height: 120px;
 
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 
   background-color: rgba(255, 255, 255, 0.25);
 }
 nav.small{
-  height: 60px;
+  height: 80px;
 }
 #logo{
-  grid-column-start: 2;
-  grid-column-end: 3;
-
-  height: 100%;
+  align-self: center;
+  background-size: contain;
 }
 nav.large #logo{
   background-image: url('../../img/logo/logo_text.svg');
   background-repeat: no-repeat;
-
-  margin-left: 42px;
-  margin-top: 24px;
+  width: 227px;
+  height: 50%;
 }
 nav.small #logo{
   background-image: url('../../img/logo/logo_symbol.svg');
   background-repeat: no-repeat;
-
-  margin-left: 50px;
-  height: 50%;
+  height: 90%;
+  width: 69px;
 }
 nav, #logo{
   transition: height 1s;
@@ -59,10 +56,10 @@ main.wrapper{
 }
 #splashpage{
   background-color: tomato;
-  /*background-image: url('../../img/PER3772.jpg');
+  background-image: url('../../img/PER3772-2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;*/
+  background-attachment: fixed;
 }
 #gallery{
   background-color: lightgreen;

@@ -8,6 +8,15 @@
   padding: 0;
   font-family: 'Maquette', sans-serif;
 }
+.textTitle{
+  font-size: 4em;
+  text-align: center;
+}
+p.text{
+  font-size: 1.3em;
+  text-align: center;
+  padding: 5% 15%;
+}
 
 /*Header*/
 nav{
@@ -50,8 +59,7 @@ main.wrapper{
   grid-template-columns: repeat(12, 1fr);
 }
 .page{
-  grid-column-start: 1;
-  grid-column-end: 13;
+  grid-column: 1 / 13;
   height: 100vh;
 
   display: grid;
@@ -71,6 +79,8 @@ main.wrapper{
   grid-row: 6 / 7;
   grid-column: 8 / 11;
 
+  text-align: center;
+  padding-top: 15%;
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -78,12 +88,86 @@ main.wrapper{
 #gallery{
   background-color: lightgreen;
 }
+#galleryCarousel{
+  background-color: black;
+  grid-row: 2 / 8;
+  grid-column: 2 / 7;
+}
+#galleryTitle{
+  grid-row: 3 / 4;
+  grid-column: 8 / 11;
+}
+#galleryText{
+  grid-row: 4 / 7;
+  grid-column: 8 / 11;
+}
+#gallery a{
+  grid-row: 7 / 8;
+  grid-column: 8 / 11;
+}
+
 #about{
   background-color: salmon;
 }
-#compare{
+#aboutTitle{
+  grid-row: 3 / 4;
+  grid-column: 3 / 6;
+}
+#aboutText{
+  grid-row: 4 / 7;
+  grid-column: 3 / 6;
+}
+#aboutImage{
+  grid-row: 1 / 8;
+  grid-column: 7 / 12;
+  background-image: url('../../img/PER4235.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#slider{
   background-color: lightblue;
 }
-#store{
+#imageSlider{
+  background-color: black;
+  grid-row: 2 / 7;
+  grid-column: 2 / 8;
+}
+#sliderTitle{
+  grid-row: 3 / 4;
+  grid-column: 9 / 12;
+}
+#sliderText{
+  grid-row: 4 / 6;
+  grid-column: 9 / 12;
+}
+
+#shop{
+  grid-template-columns: repeat(13, 1fr);
   background-color: lightyellow;
+}
+.shopLinkBig{
+  background-color: black;
+  grid-row: 2 / 6;
+}
+#shopFeminine{
+  grid-column: 3 / 7;
+}
+#shopMasculine{
+  grid-column: 8 / 12;
+}
+.socialButtons{
+  background-color: gray;
+  grid-row: 7 / 8;
+  border-radius: 50%;
+}
+#instagram{
+  grid-column: 5 / 6;
+}
+#facebook{
+  grid-column: 7 / 8;
+}
+#youtube{
+  grid-column: 9 / 10;
 }

@@ -31,7 +31,6 @@
             r && n && (r.fn.cocoen = function(e) {
                 function t() {
                     return new n(this,r.extend({}, n.defaults, e))
-                    console.log("tr");
                 }
                 return this.each(t)
             }

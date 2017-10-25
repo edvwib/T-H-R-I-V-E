@@ -1,0 +1,40 @@
+.page{
+  flex-flow: column nowrap;
+
+}
+p.text{
+  font-size: 1em;
+}
+
+/*Header*/
+nav{
+  height: 90px;
+}
+nav.small{
+  height: 50px;
+}
+
+#splashpage{
+  justify-content: flex-end;
+}
+#splashpage h1{
+  margin-bottom: 25%;
+}
+
+#slider{
+  height: 37%;
+  margin-top: 50px;
+  width: 100%;
+}
+.cocoen-drag, .cocoen-drag::before{
+  height: 100%;
+}
+#sliderInfoWrapper{
+  margin-top: 5%;
+}
+
+#shopLinkBig{
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}

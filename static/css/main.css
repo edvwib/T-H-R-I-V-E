@@ -1,3 +1,13 @@
+/*Colors*/
+/*
+  Kräm:              #F1EAE7 rgba(241, 234, 231, 1)
+  Fasad:             #89887F rgba(241, 234, 231, 1)
+  Golvväxt:          #5D6F67 rgba(241, 234, 231, 1)
+  Avantgarde Turkos: #7DC9D3 rgba(241, 234, 231, 1)
+  Plywood:           #D8A969 rgba(241, 234, 231, 1)
+  Därrkarm:          #967679 rgba(241, 234, 231, 1)
+*/
+
 /*General*/
 @font-face {
     font-family: 'Maquette';
@@ -9,16 +19,15 @@
   font-family: 'Maquette', sans-serif;
 }
 .textTitle{
-  font-size: 4em;
   text-align: center;
 }
 p.text{
-  font-size: 1.3em;
   text-align: center;
 }
 
 /*Header*/
 nav{
+  z-index: 1000;
   position: fixed;
   top: 0;
   width: 100vw;
@@ -62,9 +71,8 @@ main.wrapper{
   width: 100%;
 
   display: flex;
-  flex-flow: column nowrap;
   align-items: center;
-  justify-content: center;
+  /*justify-content: center;*/
 }
 #splashpage{
   background-color: tomato;
@@ -81,9 +89,6 @@ main.wrapper{
 
 #sliderPage{
   background-color: lightgreen;
-
-  flex-flow: row nowrap;
-  justify-content: space-around;
 }
 #slider{
   height: 60%;
@@ -92,13 +97,6 @@ main.wrapper{
 .cocoen{
   width: 100%;
   height: 100%;
-}
-#sliderInfoWrapper{
-  width: 30%;
-}
-#sliderTitle{
-}
-#sliderText{
 }
 
 #shop{
@@ -109,11 +107,7 @@ main.wrapper{
 .shopLinkBig{
   background-color: black;
 }
-#shopFeminine{
-  height: 400px;
-  width: 400px;
-}
-#shopMasculine{
+#shopLinkBig{
   height: 400px;
   width: 400px;
 }
@@ -124,10 +118,4 @@ main.wrapper{
 .socialWrapper > a{
   width: 50px;
   height: 50px;
-}
-#instagram{
-}
-#facebook{
-}
-#youtube{
 }

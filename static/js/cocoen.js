@@ -129,13 +129,20 @@
                         var t = e.pageX ? e.pageX : e.touches[0].pageX
                           , n = this.dragElement.getBoundingClientRect().left + document.body.scrollLeft;
                         this.posX = n + this.dragElementWidth - t,
-                        this.isDragging = !0
+                        this.isDragging = !0;
+                        $('.cocoen-drag').addClass("notransition");
+                        $('.cocoen > div:first-child').addClass("notransition");
+
+
                     }
                 }, {
                     key: "onDragEnd",
                     value: function(e) {
                         e.preventDefault(),
-                        this.isDragging = !1
+                        this.isDragging = !1;
+                        $('.cocoen-drag').removeClass("notransition");
+                        $('.cocoen > div:first-child').removeClass("notransition");
+
                     }
                 }, {
                     key: "onDrag",

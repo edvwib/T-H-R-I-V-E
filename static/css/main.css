@@ -7,7 +7,6 @@
   Plywood:           #D8A969 rgba(241, 234, 231, 1)
   Därrkarm:          #967679 rgba(241, 234, 231, 1)
 */
-
 /*General*/
 @font-face {
     font-family: 'Maquette';
@@ -58,8 +57,8 @@ nav.small #logo{
   height: 90%;
   width: 69px;
 }
-nav, #logo{
-  transition: height 1s;
+nav{
+  transition: all 1s;
 }
 
 main.wrapper{
@@ -75,7 +74,6 @@ main.wrapper{
   /*justify-content: center;*/
 }
 #splashpage{
-  background-color: tomato;
   background-image: url('../../img/PER3772-2.jpg');
   background-repeat: no-repeat;
   background-size: cover;

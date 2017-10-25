@@ -1,0 +1,14 @@
+
+.cocoen-drag{
+  transition: left 1s;
+
+}
+.cocoen > div:first-child{
+  transition: width 1s;
+}
+.notransition {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+}

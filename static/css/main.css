@@ -85,52 +85,10 @@ main.wrapper{
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-#gallery{
-  background-color: lightgreen;
-}
-#galleryCarousel{
-  background-color: black;
-  grid-row: 2 / 8;
-  grid-column: 2 / 7;
-}
-#galleryTitle{
-  grid-row: 3 / 4;
-  grid-column: 8 / 11;
-}
-#galleryText{
-  grid-row: 4 / 7;
-  grid-column: 8 / 11;
-}
-#gallery a{
-  grid-row: 7 / 8;
-  grid-column: 8 / 11;
-}
-
-#about{
-  background-color: salmon;
-}
-#aboutTitle{
-  grid-row: 3 / 4;
-  grid-column: 3 / 6;
-}
-#aboutText{
-  grid-row: 4 / 7;
-  grid-column: 3 / 6;
-}
-#aboutImage{
-  grid-row: 1 / 8;
-  grid-column: 7 / 12;
-  background-image: url('../../img/PER4235.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-#slider{
+#sliderPage{
   background-color: lightblue;
 }
 #imageSlider{
-  background-color: black;
   grid-row: 2 / 7;
   grid-column: 2 / 8;
 }
@@ -141,6 +99,10 @@ main.wrapper{
 #sliderText{
   grid-row: 4 / 6;
   grid-column: 9 / 12;
+}
+
+.slider img{
+  height: 40vh;
 }
 
 #shop{

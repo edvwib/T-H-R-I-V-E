@@ -86,10 +86,10 @@ main.wrapper{
 }
 
 #sliderPage{
-  background-color: lightblue;
+  background-color: lightgreen;
 }
 #imageSlider{
-  grid-row: 2 / 7;
+  grid-row: 3 / 7;
   grid-column: 2 / 8;
 }
 #sliderTitle{

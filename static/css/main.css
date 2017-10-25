@@ -15,7 +15,6 @@
 p.text{
   font-size: 1.3em;
   text-align: center;
-  padding: 5% 15%;
 }
 
 /*Header*/
@@ -55,17 +54,17 @@ nav, #logo{
 }
 
 main.wrapper{
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  display: flex;
+  flex-flow: row wrap;
 }
 .page{
-  grid-column: 1 / 13;
   height: 100vh;
+  width: 100%;
 
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(8, 1fr);
-
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
 }
 #splashpage{
   background-color: tomato;
@@ -75,61 +74,60 @@ main.wrapper{
   background-attachment: fixed;
 }
 #splashpage > h1{
-  font-size: 4em;
-  grid-row: 6 / 7;
-  grid-column: 8 / 11;
-
   text-align: center;
-  padding-top: 15%;
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
 #sliderPage{
   background-color: lightgreen;
+
+  flex-flow: row nowrap;
+  justify-content: space-around;
 }
 #imageSlider{
-  grid-row: 3 / 7;
-  grid-column: 2 / 8;
+  height: 60%;
+}
+#sliderInfoWrapper{
+  width: 30%;
 }
 #sliderTitle{
-  grid-row: 3 / 4;
-  grid-column: 9 / 12;
 }
 #sliderText{
-  grid-row: 4 / 6;
-  grid-column: 9 / 12;
 }
 
 .slider img{
-  height: 40vh;
+  height: 60%;
 }
 
 #shop{
-  grid-template-columns: repeat(13, 1fr);
+  display: none;
   background-color: lightyellow;
+  flex-flow: row nowrap;
+  justify-content: space-around;
 }
 .shopLinkBig{
   background-color: black;
-  grid-row: 2 / 6;
 }
 #shopFeminine{
-  grid-column: 3 / 7;
+  height: 400px;
+  width: 400px;
 }
 #shopMasculine{
-  grid-column: 8 / 12;
+  height: 400px;
+  width: 400px;
 }
 .socialButtons{
   background-color: gray;
-  grid-row: 7 / 8;
   border-radius: 50%;
 }
+.socialWrapper > a{
+  width: 50px;
+  height: 50px;
+}
 #instagram{
-  grid-column: 5 / 6;
 }
 #facebook{
-  grid-column: 7 / 8;
 }
 #youtube{
-  grid-column: 9 / 10;
 }

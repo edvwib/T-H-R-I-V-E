@@ -121,11 +121,9 @@ main.wrapper{
 #shop{
   background-color: lightyellow;
 }
-.socialButtons{
-  background-color: gray;
-  border-radius: 50%;
+.socialButtons::before{
+  color: black;
 }
-.socialWrapper > a{
-  width: 50px;
-  height: 50px;
+.socialButtons{
+  width: 30%;
 }

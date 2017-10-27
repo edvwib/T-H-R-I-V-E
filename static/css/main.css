@@ -1,28 +1,42 @@
 /*Colors*/
 /*
   Kräm:              #F1EAE7 rgba(241, 234, 231, 1)
-  Fasad:             #89887F rgba(241, 234, 231, 1)
-  Golvväxt:          #5D6F67 rgba(241, 234, 231, 1)
-  Avantgarde Turkos: #7DC9D3 rgba(241, 234, 231, 1)
-  Plywood:           #D8A969 rgba(241, 234, 231, 1)
-  Därrkarm:          #967679 rgba(241, 234, 231, 1)
+  Fasad:             #89887F rgba(137, 136, 127, 1)
+  Golvväxt:          #5D6F67 rgba(92, 111, 103, 1)
+  Avantgarde Turkos: #7DC9D3 rgba(125, 201, 211, 1)
+  Plywood:           #D8A969 rgba(216, 169, 105, 1)
+  Därrkarm:          #967679 rgba(150, 118, 121, 1)
 */
 /*General*/
 @font-face {
-    font-family: 'Maquette';
+    font-family: 'LogoFont';
     src: url("../font/ARSMaquettePro-Light.otf") format("opentype");
+}
+@font-face {
+    font-family: 'MuliRegular';
+    src: url("../font/Muli-Regular.ttf") format("truetype");
 }
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Maquette', sans-serif;
+  font-family: 'MuliRegular', sans-serif;
 }
 .textTitle{
-  text-align: center;
+  font-weight: 400;
 }
 p.text{
+  font-size: 16px;
+}
+a.shopLink{
+  text-decoration: none;
+  width: 75%;
+  border: 2px solid black;
+  margin: 20px 0;
+  padding: 20px 4%;
+  color: black;
   text-align: center;
 }
+
 
 /*Header*/
 nav{
@@ -66,7 +80,7 @@ main.wrapper{
   flex-flow: row wrap;
 }
 .page{
-  height: 100vh;
+  height: 100%;
   width: 100%;
 
   display: flex;
@@ -74,19 +88,26 @@ main.wrapper{
   /*justify-content: center;*/
 }
 #splashpage{
+  height: 100vh;
   background-image: url('../../img/PER3772-2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 #splashpage > h1{
-  text-align: center;
+  text-align: right;
+  margin-right: 2.5%;
   color: white;
-  background-color: rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 3px black;
+  /*background-color: rgba(0, 0, 0, 0.5);*/
 }
 
 #sliderPage{
   background-color: lightgreen;
+}
+#sliderTitle{
+  align-self: flex-start;
+  margin: 5% 5% 0 5%;
 }
 #slider{
   height: 60%;
@@ -99,15 +120,6 @@ main.wrapper{
 
 #shop{
   background-color: lightyellow;
-  flex-flow: row nowrap;
-  justify-content: space-around;
-}
-.shopLinkBig{
-  background-color: black;
-}
-#shopLinkBig{
-  height: 400px;
-  width: 400px;
 }
 .socialButtons{
   background-color: gray;

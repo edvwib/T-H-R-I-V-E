@@ -3,7 +3,8 @@
 
 }
 p.text{
-  font-size: 1em;
+  font-size: 1.2em;
+  margin: auto 8%;
 }
 
 /*Header*/
@@ -18,25 +19,27 @@ nav.small{
   justify-content: flex-end;
 }
 #splashpage h1{
-  margin-bottom: 15%;
+  margin-bottom: 8%;
+  margin-right: 8%;
   font-size: 2.2em;
   height: 80px;
 }
 
 #slider{
-  height: 37%;
   margin-top: 50px;
   width: 100%;
-}
-.cocoen-drag, .cocoen-drag::before{
-  height: 100%;
+  height: auto;
 }
 #sliderInfoWrapper{
   margin-top: 5%;
 }
 
-#shopLinkBig{
-  text-decoration: none;
-  background-color: black;
-  color: white;
+#triangleWrapper{
+  width: 320px;
+}
+#triangleSVG{
+  height: 45vh;
+}
+#triangleSVG text{
+  font-size: .25em;
 }

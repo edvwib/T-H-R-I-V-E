@@ -14,9 +14,6 @@
   <!-- ImageSlider -->
   <link rel="stylesheet" href="static/cocoen/cocoen.css">
   <link rel="stylesheet" href="static/cocoen/cocoen-custom.css">
-  <!-- Icons -->
-  <link rel="stylesheet" href="static/css/ionicons.css">
-
   <title>T H R I V E</title>
 </head>
 <body>
@@ -43,13 +40,46 @@
       <div id="sliderInfoWrapper">
         <p id="sliderText" class="text">
           Polyester är det vanligaste plastmaterialet vi tillverkar kläder av. Det kallas för ett syntetmaterial då det urvins ur olja, vilket inte är särskilt klimatsmart. Däremot kan vi idag återvinna plast och polyester (t.ex. gamla PET-flaskor) som vi sedan kan göra nya kläder av. Precis som jackan här bredvid som helt och hållet är tillverkad av återvunnen plast.<br><br>
-          Vi på THRIVE vill alltid ge dig det bästa inom ekologiskt, rättvist och hållbart mode. Vårt sortiment saknar helt kemikalier, bekämpningsmedel, giftiga färgningsprocesser samt är befriat från omänskliga arbetsvillkor för dem som tillverkat kläderna. Kort sagt, respektfullt mode utan kompromisser.
+          Vi på T H R I V E vill alltid ge dig det bästa inom ekologiskt, rättvist och hållbart mode. Vårt sortiment saknar helt kemikalier, bekämpningsmedel, giftiga färgningsprocesser samt är befriat från omänskliga arbetsvillkor för dem som tillverkat kläderna. Kort sagt, respektfullt mode utan kompromisser.
         </p>
       </div>
       <a href="http://www.thrivestore.se/" class="shopLink">Gå till thrivestore.se</a>
     </div>
 
-    <div class="page" id="shop">
+    <div class="page" id="trianglePage">
+      <h2 id="triangleTitle" class="textTitle">Transform your<br>materials</h2>
+
+      <div id="triangleWrapper">
+        <svg id="triangleSVG" viewBox="0 0 100 100" preserveAspectRatio="none">
+          <defs>
+            <pattern id="topImage" x="0" y="0" patternUnits="userSpaceOnUse" height="100" width="100">
+              <image x="0" y="0" height="100" width="100" xlink:href="img/PER4235.jpg"></image>
+            </pattern>
+            <pattern id="leftImage" x="0" y="0" patternUnits="userSpaceOnUse" height="100" width="100">
+              <image x="0" y="0" height="100" width="100" xlink:href="img/PER3772-2.jpg"></image>
+            </pattern>
+            <pattern id="rightImage" x="0" y="0" patternUnits="userSpaceOnUse" height="100" width="100">
+              <image x="0" y="0" height="100" width="100" xlink:href="img/PER4243.jpg"></image>
+            </pattern>
+          </defs>
+
+          <!-- In order of x,y: top, left, right -->
+          <polygon points="50,1 20,50 80,50" fill="url(#topImage)" id="triangleTop" class="trianglePart" />
+          <!-- In order of x,y: top left, bottom left, bottom right, top right -->
+          <polygon points="20,50 1,87 50,87 50,50" fill="url(#leftImage)" id="triangleLeft" class="trianglePart" />
+          <!-- In order of x,y: top left, bottom left, bottom right, top right -->
+          <polygon points="50,50 50,87 99,87 80,50" fill="url(#rightImage)" id="triangleRight" class="trianglePart" />
+
+          <text x="37" y="35">New Polyester</text>
+          <text x="33" y="42">Recycled Polyester</text>
+        </svg>
+      </div>
+
+      <p id="triangleText" class="text">
+        Modeindustrin är både snårig och smutsig innan plagget hänger på galgen. Under tillverkningsprocessen används det ofta mycket kemikalier, olja och stora mängder vatten som förorenar miljön och försämrar hälsan hos människor som bor runtom industrierna.<br><br>
+        Du kan enkelt byta ut dessa material till mer miljövänliga alternativ. Kläder som på riktigt är bra för dig och vår miljö!
+      </p>
+
       <a href="http://www.thrivestore.se/" class="shopLink">Gå till thrivestore.se</a>
       <div class="socialWrapper">
         <a href="" id="instagram" class="socialButtons ion-social-instagram"></a>

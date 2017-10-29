@@ -23,6 +23,7 @@
 }
 .textTitle{
   font-weight: 400;
+  align-self: flex-start;
 }
 p.text{
   font-size: 16px;
@@ -104,10 +105,10 @@ main.wrapper{
 
 #sliderPage{
   background-color: lightgreen;
+  height: 240vh;
 }
 #sliderTitle{
-  align-self: flex-start;
-  margin: 5% 5% 0 5%;
+  margin: 2% 5% 0 5%;
 }
 #slider{
   height: 60%;
@@ -118,9 +119,38 @@ main.wrapper{
   height: 100%;
 }
 
-#shop{
-  background-color: lightyellow;
+#trianglePage{
+  background-color: gray;
+  height: 185vh;
 }
+#triangleTitle{
+  margin: 3% 5% 1.5% 5%;
+}
+
+#triangleWrapper{
+  width: 400px;
+}
+#triangleSVG{
+  width: 100%;
+  height: 50vh;
+}
+.trianglePart{
+  /*fill: transparent;*/
+  stroke: white;
+}
+
+#triangleText{
+  margin-top: 2.5%;
+}
+
+
+
+
+
+
+
+
+
 .socialButtons::before{
   color: black;
 }

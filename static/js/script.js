@@ -12,6 +12,6 @@ $(document).ready(function(){
 
   //Initialize image slider
   $('.cocoen').cocoen();
-
+  
 
 });

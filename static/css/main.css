@@ -116,12 +116,22 @@ main.wrapper{
 }
 .cocoen{
   width: 100%;
-  height: 100%;
 }
 
-#trianglePage{
-  background-color: gray;
+.trianglePage{
+  color: white;
+  z-index: 1;
   height: 185vh;
+  background-image: url('../../img/PER3772-2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#opacityLayer{
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 185vh;
+  background-color: rgba(5, 5, 5, .4)
 }
 #triangleTitle{
   margin: 3% 5% 1.5% 5%;
@@ -134,20 +144,34 @@ main.wrapper{
   width: 100%;
   height: 50vh;
 }
+#triangleSVG text{
+  font-size: .25em;
+}
+.strike{
+  text-decoration: line-through;
+}
 .trianglePart{
-  /*fill: transparent;*/
+  fill: transparent;
   stroke: white;
 }
+.topHover{
+  background-image: url('../../img/PER3772-2.jpg');
+}
+.leftHover{
+  background-image: url('../../img/PER4235.jpg');
+}
+.rightHover{
+  background-image: url('../../img/PER4243.jpg');
+}
+#whiteShopLink{
+  color: white;
+    border: 2px solid white;
+}
+
 
 #triangleText{
   margin-top: 2.5%;
 }
-
-
-
-
-
-
 
 
 

@@ -105,7 +105,7 @@ main.wrapper{
 
 #sliderPage{
   background-color: lightgreen;
-  height: 240vh;
+  height: 100%;
 }
 #sliderTitle{
   margin: 2% 5% 0 5%;
@@ -113,6 +113,7 @@ main.wrapper{
 #slider{
   height: 60%;
   width: 50%;
+  margin: 25px 0;
 }
 .cocoen{
   width: 100%;
@@ -124,6 +125,7 @@ main.wrapper{
   height: 185vh;
   background-image: url('../../img/pet.jpg');
   background-repeat: no-repeat;
+  background-size: cover;
 }
 #opacityLayer{
   position: absolute;

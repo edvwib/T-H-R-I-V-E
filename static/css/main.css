@@ -122,9 +122,8 @@ main.wrapper{
   color: white;
   z-index: 1;
   height: 185vh;
-  background-image: url('../../img/PER3772-2.jpg');
+  background-image: url('../../img/pet.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
 }
 #opacityLayer{
   position: absolute;
@@ -146,6 +145,7 @@ main.wrapper{
 }
 #triangleSVG text{
   font-size: .25em;
+  fill: white;  
 }
 .strike{
   text-decoration: line-through;
@@ -155,13 +155,13 @@ main.wrapper{
   stroke: white;
 }
 .topHover{
-  background-image: url('../../img/PER3772-2.jpg');
+  background-image: url('../../img/pet.jpg');
 }
 .leftHover{
   background-image: url('../../img/PER4235.jpg');
 }
 .rightHover{
-  background-image: url('../../img/PER4243.jpg');
+  background-image: url('../../img/cotton.jpg');
 }
 #whiteShopLink{
   color: white;

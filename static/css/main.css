@@ -7,7 +7,10 @@
   Plywood:           #D8A969 rgba(216, 169, 105, 1)
   Därrkarm:          #967679 rgba(150, 118, 121, 1)
 */
+
 /*General*/
+/*********/
+
 @font-face {
     font-family: 'LogoFont';
     src: url("../font/ARSMaquettePro-Light.otf") format("opentype");
@@ -16,9 +19,60 @@
     font-family: 'MuliRegular';
     src: url("../font/Muli-Regular.ttf") format("truetype");
 }
-*{
+
+* {
   margin: 0;
   padding: 0;
   font-family: 'MuliRegular', sans-serif;
+}
+
+
+.textTitle {
+  font-weight: 400;
+}
+
+p.text {
+  font-size: 16px;
+}
+
+/** HEADER **/
+/************/
+
+#logo {
+  align-self: center;
+  background-size: contain;
+}
+
+nav.large #logo {
+  background-image: url('../../img/logo/logo_text.svg');
+  background-repeat: no-repeat;
+  width: 227px;
+  height: 50%;
+}
+
+nav {
+  z-index: 1000;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 120px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: #ffffff;
+
+}
+
+/** MAIN **/
+/***********/
+
+a.shopLink {
+  text-decoration: none;
+  border: 2px solid white;
+  margin: 20px 0;
+  padding: 20px 0;
+  color: white;
+  text-align: center;
 }
 

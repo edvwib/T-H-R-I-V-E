@@ -26,13 +26,22 @@
   font-family: 'MuliRegular', sans-serif;
 }
 
-
 .textTitle {
   font-weight: 400;
 }
 
 p.text {
   font-size: 16px;
+}
+
+
+a.shopLink {
+  text-decoration: none;
+  border: 2px solid white;
+  margin: 20px 0;
+  padding: 20px 0;
+  color: white;
+  text-align: center;
 }
 
 /** HEADER **/
@@ -67,12 +76,9 @@ nav {
 /** MAIN **/
 /***********/
 
-a.shopLink {
-  text-decoration: none;
-  border: 2px solid white;
-  margin: 20px 0;
-  padding: 20px 0;
-  color: white;
-  text-align: center;
+#mainsection {
+  background: rgb(2, 41, 73);
+  padding:25px;
+  width: 100%;
+  height: 600px;
 }
-

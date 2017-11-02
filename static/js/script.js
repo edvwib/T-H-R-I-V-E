@@ -11,25 +11,25 @@ $(document).ready(function(){
 
 
   //Initialize image slider
-  $('.cocoen').cocoen();
-  
+  // $('.cocoen').cocoen();
+
 
   //Triangle hover
   //Top
-  $('#triangleTop').click(function(){
-    $(this).closest('.trianglePage').removeClass('topHover rightHover leftHover');
-    $(this).closest('.trianglePage').addClass('topHover');
-  });
-  //Left
-  $('#triangleLeft').click(function () {
-    $(this).closest('.trianglePage').removeClass('topHover rightHover leftHover');
-    $(this).closest('.trianglePage').addClass('leftHover');
-  });
-  //Right
-  $('#triangleRight').click(function () {
-    $(this).closest('.trianglePage').removeClass('topHover rightHover leftHover');
-    $(this).closest('.trianglePage').addClass('rightHover');
-  });
+  // $('#triangleTop').click(function(){
+  //   $(this).closest('.trianglePage').removeClass('topHover rightHover leftHover');
+  //   $(this).closest('.trianglePage').addClass('topHover');
+  // });
+  // //Left
+  // $('#triangleLeft').click(function () {
+  //   $(this).closest('.trianglePage').removeClass('topHover rightHover leftHover');
+  //   $(this).closest('.trianglePage').addClass('leftHover');
+  // });
+  // //Right
+  // $('#triangleRight').click(function () {
+  //   $(this).closest('.trianglePage').removeClass('topHover rightHover leftHover');
+  //   $(this).closest('.trianglePage').addClass('rightHover');
+  // });
 
 
 

@@ -54,6 +54,9 @@ nav {
 
 /** MAIN **/
 /***********/
+main.container-fluid{
+  padding: 0;
+}
 
 #splashpage {
   background-image: url('../../img/header1.png');

@@ -1,7 +1,16 @@
+/** No Nav on mobile **/
+nav {
+    display: none;
+}
+
+/** Scale background **/
 main.container-fluid {
     background-position-x: 75% !important;
 }
 
-nav {
-    display: none;
-}
+/** first Section slideshow should change positions & scaling **/
+#slideshow-section, #infosection { float: unset;}
+#infosection h1 {font-size: 2.5em; line-height: 1.1;}
+#infosection, p {width: 90% !important;}
+
+/** TODO: Move slideshow above text, somehow **/

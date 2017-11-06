@@ -69,10 +69,6 @@ main.container-fluid {
   #splashpage{background-position: 80%;}
 }
 
-#header {
-  margin-top: 25%;
-}
-
 .logotext {padding-top: 65px;}
 .header {
   font-family: 'HeaderFont', sans-serif;

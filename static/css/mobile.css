@@ -1,7 +1,7 @@
-#splashpage{
-    background-size: cover;
-    height: 100vh;
+main.container-fluid {
+    background-position-x: 75% !important;
 }
-nav{
+
+nav {
     display: none;
 }

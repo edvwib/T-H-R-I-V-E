@@ -151,7 +151,7 @@ section {
 }
 
 #materialInfo{
-  padding-top: 35%;
+  padding-top: 25%;
   height: 100vh;
   background-color: #64CBD5;
 }
@@ -160,6 +160,26 @@ section {
   font-size: 3em;
   color: white;
   font-family: HeaderFont, sans-serif;
+}
+#triangleSVG{
+  min-width: 290px;
+  max-width: 390px;
+}
+
+.trianglePart{
+
+}
+#triangleTop{
+  
+}
+#top, #left, #right{
+  width: 100%;
+}
+#triangleLeft{
+  background-image: url('../../img/materials/pet.jpg');
+}
+#triangleRight{
+  background-image: url('../../img/materials/cotton.jpg');
 }
 #materialText{
   color: white;

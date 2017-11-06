@@ -5,7 +5,7 @@
   Golvväxt:          #5D6F67 rgba(92, 111, 103, 1)
   Avantgarde Turkos: #7DC9D3 rgba(125, 201, 211, 1)
   Plywood:           #D8A969 rgba(216, 169, 105, 1)
-  Därrkarm:          #967679 rgba(150, 118, 121, 1)
+  Dörrkarm:          #967679 rgba(150, 118, 121, 1)
 */
 
 /*General*/
@@ -126,3 +126,41 @@ section {
   width: 400px;
   height: 500px;
 } 
+
+
+
+
+/*MATERIALS*/
+#materialHeader{
+  background: url('../../img/materials/headerBackground.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+#materialHeaderOverlay{
+  position: absolute;
+  height: 100%;
+  width: 70%;
+}
+#materialHeader > .header{
+  text-align: left;
+  font-size: 5.5em;
+  line-height: 14%;
+}
+#materialHeader > h1{
+  height: 14%;
+}
+
+#materialInfo{
+  padding-top: 35%;
+  height: 100vh;
+  background-color: #64CBD5;
+}
+#materialInfo > h3{
+  margin-left: 6%;
+  font-size: 3em;
+  color: white;
+  font-family: HeaderFont, sans-serif;
+}
+#materialText{
+  color: white;
+}

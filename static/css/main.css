@@ -1,11 +1,9 @@
 /*Colors*/
 /*
-  Kräm:              #F1EAE7 rgba(241, 234, 231, 1)
-  Fasad:             #89887F rgba(137, 136, 127, 1)
-  Golvväxt:          #5D6F67 rgba(92, 111, 103, 1)
-  Avantgarde Turkos: #7DC9D3 rgba(125, 201, 211, 1)
-  Plywood:           #D8A969 rgba(216, 169, 105, 1)
-  Dörrkarm:          #967679 rgba(150, 118, 121, 1)
+  Orange juice yellow: #F8A940
+  Huvudblå:            #64CBD5
+  Mörkare blå:         #45B6C3
+  Backgroundgrå:       #F1F1F1
 */
 
 /*General*/
@@ -102,7 +100,7 @@ section {
 }
 
 #infosection h1 { margin-left:24px; font-size: 4em; text-align: unset; letter-spacing: 1px;}
-#infosection p  { 
+#infosection p  {
    width: 55%;
    margin-top: 45px;
    margin-left: 24px;
@@ -125,7 +123,7 @@ section {
   background-size: cover;
   width: 400px;
   height: 500px;
-} 
+}
 
 
 
@@ -170,7 +168,7 @@ section {
 
 }
 #triangleTop{
-  
+
 }
 #top, #left, #right{
   width: 100%;

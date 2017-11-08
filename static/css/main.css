@@ -163,6 +163,12 @@ section {
   min-width: 290px;
   max-width: 390px;
 }
+#triangleSVG > text{
+  fill: white;
+  font-size: .3em;
+  font-family: HeaderFont, sans-serif;
+}
+
 
 .trianglePart{
 

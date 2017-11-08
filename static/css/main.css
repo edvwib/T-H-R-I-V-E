@@ -10,12 +10,16 @@
 /*********/
 
 @font-face {
-    font-family: 'HeaderFont';
+    font-family: 'DIN';
     src: url("../font/DIN_Condensed_Bold.ttf") format("truetype");
 }
-
-* {
-  font-family: 'MuliRegular', sans-serif;
+@font-face {
+    font-family: 'MuliExtra';
+    src: url("../font/Muli-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'MuliSemi';
+    src: url("../font/Muli-SemiBold.ttf") format("truetype");
 }
 
 body {
@@ -69,7 +73,7 @@ main.container-fluid {
 
 .logotext {padding-top: 65px;}
 .header {
-  font-family: 'HeaderFont', sans-serif;
+  font-family: 'DIN', sans-serif;
   font-size: 6em;
   line-height: 75px;
   display: block;
@@ -157,7 +161,7 @@ section {
   margin-left: 6%;
   font-size: 3em;
   color: white;
-  font-family: HeaderFont, sans-serif;
+  font-family: 'DIN', sans-serif;
 }
 #triangleSVG{
   min-width: 290px;
@@ -166,7 +170,7 @@ section {
 #triangleSVG > text{
   fill: white;
   font-size: .3em;
-  font-family: HeaderFont, sans-serif;
+  font-family: 'DIN', sans-serif;
 }
 
 

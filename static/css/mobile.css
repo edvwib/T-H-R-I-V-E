@@ -14,3 +14,36 @@ main.container-fluid {
 #infosection, p {width: 90% !important;}
 
 /** TODO: Move slideshow above text, somehow **/
+
+
+
+
+
+/*MATERIALS*/
+#materialHeader{
+  height: 100vh;
+}
+#materialHeader > .header{
+  font-size: 100px;
+  line-height: 77px;
+}
+#materialInfo{
+  padding-top: 25%;
+  height: 100vh;
+}
+#materialInfo > h3{
+  margin-left: 6%;
+  font-size: 42px;
+  line-height: 45px;
+}
+#triangleSVG{
+  min-width: 290px;
+  max-width: 390px;
+}
+#triangleSVG > text{
+  font-size: .3em;
+}
+#materialText{
+  font-size: 16px;
+  line-height: 24px;
+}

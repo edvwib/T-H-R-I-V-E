@@ -97,10 +97,10 @@ section {
 }
 
 #infosection {
-  width: 55%;
-  min-height: 400px;
+  /* width: 55%; */
+  /* min-height: 400px; */
   height: auto;
-  float: left;
+  /* float: left; */
 }
 
 #infosection h1 { margin-left:24px; font-size: 4em; text-align: unset; letter-spacing: 1px;}
@@ -114,9 +114,9 @@ section {
 }
 
 #slideshow-section {
-  float: right;
+  /* float: right; */
 
-  width: 40%;
+  /* width: 40%; */
   min-height: 400px;
   height: auto;
 }

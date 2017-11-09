@@ -60,6 +60,10 @@
       <h3>TRANSFORM YOUR MATERIALS</h3>
       <div class="row" id="materialTriangle">
         <svg class="col-11 ml-3" id="triangleSVG" viewBox="0 0 100 100" preserveAspectRatio="none">
+          <image clip-path="url(#topImage)" width="100%" height="100%" xlink:href="img/materials/bark.jpeg" preserveAspectRatio="xMidYMid slice"></image>
+          <image clip-path="url(#leftImage)" width="100%" height="100%" xlink:href="img/materials/pet.jpg" preserveAspectRatio="xMidYMid slice"></image>
+          <image clip-path="url(#rightImage)" width="100%" height="100%" xlink:href="img/materials/cotton.jpg" preserveAspectRatio="xMidYMid slice"></image>
+
           <clipPath id="topImage">
             <!-- In order of x,y: top, left, right -->
             <polygon points="50,1 21,49 79,49" id="triangleTop" class="trianglePart" />
@@ -77,9 +81,8 @@
             - CLICK TO CHOOSE YOUR MATERIAL -
           </text>
 
-          <image clip-path="url(#topImage)" width="100%" height="100%" xlink:href="img/materials/bark.jpeg" preserveAspectRatio="xMidYMid slice"></image>
-          <image clip-path="url(#leftImage)" width="100%" height="100%" xlink:href="img/materials/pet.jpg" preserveAspectRatio="xMidYMid slice"></image>
-          <image clip-path="url(#rightImage)" width="100%" height="100%" xlink:href="img/materials/cotton.jpg" preserveAspectRatio="xMidYMid slice"></image>
+          <circle cx="50" cy="32" r="9" />
+          <image id="plus-icon" xlink:href="img/icon/plus-round.svg" x="45" y="27" height="10" width="10"/>
         </svg>
       </div>
       <div class="row" id="materialText">

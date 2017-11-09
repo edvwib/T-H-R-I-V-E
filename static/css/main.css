@@ -155,6 +155,14 @@ section {
   fill: white;
   font-family: 'DIN', sans-serif;
 }
+#triangleSVG > circle{
+  z-index: 10;
+  fill: #F8A940;
+  stroke: white;
+}
+#plus-icon{
+  filter: invert(100%);
+}
 #materialText{
   color: white;
   font-family: 'MuliSemi', sans-serif;

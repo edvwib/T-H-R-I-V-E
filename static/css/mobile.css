@@ -28,7 +28,6 @@ main.container-fluid {
   line-height: 77px;
 }
 #materialInfo{
-  padding-top: 25%;
   height: 100vh;
 }
 #materialInfo > h3{
@@ -39,7 +38,6 @@ main.container-fluid {
 #triangleSVG{
   width: 80%;
   height: 80%;
-  margin-left: 10%;
 }
 #triangleSVG > text{
   font-size: .3em;

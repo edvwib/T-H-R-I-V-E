@@ -32,70 +32,74 @@
     </div>
   </main>
   <div class="container-fluid">
-  <section class="row">
-    <h1 class="header col-12 order-1">FROM EDVWIB TO APPLE SAUCE ...<br>TO 404ERRORZ</h1>
-    <div id="infosection" class="col-12 col-md-6 order-3 order-md-2">
-      <p>
-         Polyester är något dom vill att vi ska skriva här.
-         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-         Voluptatibus nemo, eos ipsum fuga reprehenderit nihil at molestias ratione odit,
-         fugiat architecto eligendi. Labore vero, aperiam quisquam ipsum inventore ipsam eum!
-      </p>
-    </div>
-    <div id="slideshow-section" class="col-12 col-md-6 order-2 order-md-3">
-      <div class="image-slideshow">
-        <!-- Work in Progress, obv need pro js -->
-      </div>
-    </div>
-  </section>
-
-  <div class="row" id="materialsSection">
-    <div id="materialHeader">
-      <h1></h1>
-      <h1 class="header whiteHeader">TRANS</h1>
-      <h1 class="header whiteHeader">FORM</h1>
-      <h1 class="header whiteHeader">YOUR</h1>
-      <h1 class="header">MATER</h1>
-      <h1 class="header">IALS</h1>
-      <h1></h1>
-    </div>
-    <div id="materialInfo">
-      <h3>TRANSFORM YOUR MATERIALS</h3>
-      <div class="row" id="materialTriangle">
-        <svg id="triangleSVG" viewBox="0 0 100 100" preserveAspectRatio="none">
-          <image clip-path="url(#topImage)" width="100%" height="100%" xlink:href="img/materials/bark.jpeg" preserveAspectRatio="xMidYMid slice"></image>
-          <image clip-path="url(#leftImage)" width="100%" height="100%" xlink:href="img/materials/pet.jpg" preserveAspectRatio="xMidYMid slice"></image>
-          <image clip-path="url(#rightImage)" width="100%" height="100%" xlink:href="img/materials/cotton.jpg" preserveAspectRatio="xMidYMid slice"></image>
-
-          <clipPath id="topImage">
-            <!-- In order of x,y: top, left, right -->
-            <polygon points="50,1 21,49 79,49" id="triangleTop" class="trianglePart" />
-          </clipPath>
-          <clipPath id="leftImage">
-            <!-- In order of x,y: top left, bottom left, bottom right, top right -->
-            <polygon points="20.5,50 1,87 49,87 49,50" id="triangleLeft" class="trianglePart" />
-          </clipPath>
-          <clipPath id="rightImage">
-            <!-- In order of x,y: top left, bottom left, bottom right, top right -->
-            <polygon points="50,50 50,87 99,87 79,50" id="triangleRight" class="trianglePart" />
-          </clipPath>
-
-          <text x="4" y="65" transform="rotate(-60 4,65)">
-            - CLICK TO CHOOSE YOUR MATERIAL -
-          </text>
-
-          <circle cx="50" cy="32" r="9" />
-          <image id="plus-icon" xlink:href="img/icon/plus-round.svg" x="45" y="27" height="10" width="10"/>
-        </svg>
-      </div>
-      <div class="row" id="materialText">
-        <p class="col-11 ml-4 mr-4">
-          Du kan enkelt byta ut material till mer miljövänliga alternativ.
-          Kläder som på riktigt är bra för dig och vår miljö!
+    <section class="row">
+      <h1 class="header col-12 order-1">FROM EDVWIB TO APPLE SAUCE ...<br>TO 404ERRORZ</h1>
+      <div id="infosection" class="col-12 col-md-6 order-3 order-md-2">
+        <p>
+          Polyester är något dom vill att vi ska skriva här.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Voluptatibus nemo, eos ipsum fuga reprehenderit nihil at molestias ratione odit,
+          fugiat architecto eligendi. Labore vero, aperiam quisquam ipsum inventore ipsam eum!
         </p>
       </div>
+      <div id="slideshow-section" class="col-12 col-md-6 order-2 order-md-3">
+        <div class="image-slideshow">
+          <!-- Work in Progress, obv need pro js -->
+        </div>
+      </div>
+    </section>
+
+    <div class="row" id="materialsSection">
+      <div class="col-12 order-1" id="materialHeader">
+        <h1></h1>
+        <h1 class="header whiteHeader">TRANS</h1>
+        <h1 class="header whiteHeader">FORM</h1>
+        <h1 class="header whiteHeader">YOUR</h1>
+        <h1 class="header">MATER</h1>
+        <h1 class="header">IALS</h1>
+        <h1></h1>
+      </div>
+      <div class="col-12 order-2 pt-5" id="materialInfo">
+        <h3>TRANSFORM YOUR MATERIALS</h3>
+        <div class="row" id="materialTriangle">
+          <svg class="col-12" id="triangleSVG" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <image clip-path="url(#topImage)" width="100%" height="100%" xlink:href="img/materials/bark.jpeg" preserveAspectRatio="xMidYMid slice"></image>
+            <image clip-path="url(#leftImage)" width="100%" height="100%" xlink:href="img/materials/pet.jpg" preserveAspectRatio="xMidYMid slice"></image>
+            <image clip-path="url(#rightImage)" width="100%" height="100%" xlink:href="img/materials/cotton.jpg" preserveAspectRatio="xMidYMid slice"></image>
+
+            <clipPath id="topImage">
+              <!-- In order of x,y: top, left, right -->
+              <polygon points="50,1 21,49 79,49" id="triangleTop" class="trianglePart" />
+            </clipPath>
+            <clipPath id="leftImage">
+              <!-- In order of x,y: top left, bottom left, bottom right, top right -->
+              <polygon points="20.5,50 1,87 49,87 49,50" id="triangleLeft" class="trianglePart" />
+            </clipPath>
+            <clipPath id="rightImage">
+              <!-- In order of x,y: top left, bottom left, bottom right, top right -->
+              <polygon points="50,50 50,87 99,87 79,50" id="triangleRight" class="trianglePart" />
+            </clipPath>
+
+            <text x="4" y="65" transform="rotate(-60 4,65)">
+              - CLICK TO CHOOSE YOUR MATERIAL -
+            </text>
+
+            <circle cx="50" cy="32" r="9" />
+            <image xlink:href="img/icon/plus-round.svg" x="45" y="27" height="10" width="10"/>
+          </svg>
+        </div>
+        <div class="row" id="materialText">
+          <p class="col-11 ml-4 mr-4">
+            Du kan enkelt byta ut material till mer miljövänliga alternativ.
+            Kläder som på riktigt är bra för dig och vår miljö!
+          </p>
+        </div>
+      </div>
     </div>
-  </div>
+
+    <div class="row whiteHeader" id="shopLink">
+      <h2 class="col-8 col-sm-12 pt-5 pl-4">SO LETS TRANSFORM YOUR FASHION</h2>
+    </div>
   </div>
 
 

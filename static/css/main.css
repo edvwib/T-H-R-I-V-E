@@ -151,6 +151,7 @@ section {
   color: white;
   font-family: 'DIN', sans-serif;
 }
+
 #triangleSVG > text{
   fill: white;
   font-family: 'DIN', sans-serif;
@@ -163,6 +164,7 @@ section {
 #plus-icon{
   filter: invert(100%);
 }
+
 #materialText{
   color: white;
   font-family: 'MuliSemi', sans-serif;

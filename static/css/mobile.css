@@ -5,8 +5,9 @@ nav {
 
 /** Scale background **/
 main.container-fluid {
-    background-position-x: 75% !important;
+    background-position-x: 75%;
 }
+.logotext {padding-top: 185px;}
 
 /** first Section slideshow should change positions & scaling **/
 #slideshow-section, #infosection { float: unset;}
@@ -30,17 +31,15 @@ main.container-fluid {
 #materialInfo{
   height: 100vh;
 }
-#materialInfo > h3{
-  margin-left: 6%;
+#materialInfo h3{
   font-size: 42px;
   line-height: 45px;
 }
 #triangleSVG{
-  width: 80%;
-  height: 80%;
+  height: 100%;
 }
 #triangleSVG > text{
-  font-size: .3em;
+  font-size: .35em;
 }
 #materialText{
   font-size: 16px;

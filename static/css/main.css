@@ -90,7 +90,7 @@ main.container-fluid {
   font-size: 6em;
   line-height: 75px;
   display: block;
-  text-align: center;
+  text-align: left;
   color: #F8A940;
 }
 
@@ -160,7 +160,7 @@ section {
 #materialInfo{
   background-color: #64CBD5;
 }
-#materialInfo > h3{
+#materialInfo h3{
   color: white;
   font-family: 'DIN', sans-serif;
 }
@@ -188,6 +188,7 @@ section {
 #shopLinkSection > h2{
   color: #F49932;
   font-family: 'DIN', sans-serif;  
+
   font-size: 42px;
   letter-spacing: 1px;
   line-height: 45px;

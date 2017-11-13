@@ -1,0 +1,195 @@
+/*Colors*/
+/*
+  Orange juice yellow: #F8A940
+  Huvudblå:            #64CBD5
+  Mörkare blå:         #45B6C3
+  Backgroundgrå:       #F1F1F1
+*/
+
+/*General*/
+/*********/
+
+@font-face {
+    font-family: 'DIN';
+    src: url("../font/DIN_Condensed_Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'MuliExtra';
+    src: url("../font/Muli-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'MuliSemi';
+    src: url("../font/Muli-SemiBold.ttf") format("truetype");
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+.shopLink{
+  background-clip: content-box;
+
+  background-color: #F8A940;
+  color: white;
+  padding: 4px;
+  border: #F8A940 solid 4px;
+  height: 90px;
+  font-family: 'DIN', sans-serif;
+  font-size: 26px;
+  line-height: 74px;
+  text-align: center;
+}
+
+/** HEADER **/
+/************/
+
+#logo {
+  align-self: center;
+  background-size: contain;
+  margin: 0 auto;
+}
+
+nav.large #logo {
+  background-image: url('../../img/logo/logo_text.svg');
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 60%;
+  margin: 0 auto;
+}
+
+nav {
+  z-index: 1;
+  width: 100%;
+  height: 70px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: #ffffff;
+}
+
+/** MAIN **/
+/***********/
+
+main.container-fluid {
+  background-image: url('../../img/header1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 100%;
+  height: 100vh;
+}
+
+@media screen and (max-width: 550px){
+  #splashpage{background-position: 80%;}
+}
+
+.logotext {padding-top: 65px;}
+.header {
+  font-family: 'DIN', sans-serif;
+  font-size: 6em;
+  line-height: 75px;
+  display: block;
+  text-align: left;
+  color: #F8A940;
+}
+
+.whiteHeader {
+  color: white;
+}
+
+/** SECTION **/
+/*************/
+
+section {
+  padding-top: 120px;
+  background: #F2F1EF;
+  width: 100%;
+  min-height: 700px;
+  height: auto;
+}
+
+#infosection {
+  /* width: 55%; */
+  /* min-height: 400px; */
+  height: auto;
+  /* float: left; */
+}
+
+#infosection h1 { margin-left:24px; font-size: 4em; text-align: unset; letter-spacing: 1px;}
+#infosection p  {
+   width: 55%;
+   margin-top: 45px;
+   margin-left: 24px;
+   font-size: 18px;
+   line-height: 1.5;
+   color: #110E0D;
+}
+
+#slideshow-section {
+  /* float: right; */
+
+  /* width: 40%; */
+  min-height: 400px;
+  height: auto;
+}
+
+
+.image-slideshow {
+  background: url('../../img/slideshow-1/jacka_svart.png');
+  background-size: cover;
+  width: 400px;
+  height: 500px;
+}
+
+
+
+
+/*MATERIALS*/
+#materialHeader{
+  background: url('../../img/materials/headerBackground.jpg');
+  background-size: cover;
+}
+#materialHeader > .header{
+  text-align: left;
+}
+#materialHeader > h1{
+  height: 14%;
+}
+
+#materialInfo{
+  background-color: #64CBD5;
+}
+#materialInfo h3{
+  color: white;
+  font-family: 'DIN', sans-serif;
+}
+
+#triangleSVG > text{
+  fill: white;
+  font-family: 'DIN', sans-serif;
+}
+#triangleSVG > circle{
+  fill: #F8A940;
+  stroke: white;
+}
+
+#materialText{
+  color: white;
+  font-family: 'MuliSemi', sans-serif;
+}
+
+
+/*SHOPLINK*/
+#shopLinkSection{
+  background-color: #F1F1F1;
+  height: 100vh;
+}
+#shopLinkSection > h2{
+  color: #F49932;
+  font-family: 'DIN', sans-serif;  
+
+  font-size: 42px;
+  letter-spacing: 1px;
+  line-height: 45px;
+}

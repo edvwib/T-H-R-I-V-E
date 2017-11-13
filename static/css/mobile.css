@@ -21,17 +21,17 @@ main.container-fluid {
 
 
 /*MATERIALS*/
-#materialHeader{
-  height: 100vh;
+#materialsHead{
+  
 }
-#materialHeader > .header{
+#materialsHead .header{
   font-size: 100px;
   line-height: 77px;
 }
-#materialInfo{
-  height: 100vh;
+#materialSection{
+  height: auto;
 }
-#materialInfo h3{
+#materialSection h3{
   font-size: 42px;
   line-height: 45px;
 }

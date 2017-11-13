@@ -49,7 +49,7 @@
       </div>
     </section>
     
-    <div class="row" id="materialHead">
+    <div class="row" id="materialSection">
       <div class="col-12 order-1" id="materialHeader">
         <h1></h1>
         <h1 class="header whiteHeader">TRANS</h1>
@@ -59,15 +59,11 @@
         <h1 class="header">IALS</h1>
         <h1></h1>
       </div>
-    </div>
 
-    <div class="row" id="materialSection">
-      <div class="col-12 order-2">
-        <h3 class="col-10 offset-1">TRANSFORM YOUR MATERIALS</h3>
-      </div>
+      <h3 class="col-10 order-2 offset-1">TRANSFORM YOUR MATERIALS</h3>
       
       <div class="col-12 order-3" id="materialTriangle">
-        <svg class="col-10 offset-1" id="triangleSVG" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <svg class="" id="triangleSVG" viewBox="0 0 100 100" preserveAspectRatio="none">
           <image clip-path="url(#topImage)" width="100%" height="100%" xlink:href="img/materials/bark.jpeg" preserveAspectRatio="xMidYMid slice"></image>
           <image clip-path="url(#leftImage)" width="100%" height="100%" xlink:href="img/materials/pet.jpg" preserveAspectRatio="xMidYMid slice"></image>
           <image clip-path="url(#rightImage)" width="100%" height="100%" xlink:href="img/materials/cotton.jpg" preserveAspectRatio="xMidYMid slice"></image>
@@ -91,14 +87,16 @@
           
           <circle cx="50" cy="32" r="9" />
           <image xlink:href="img/icon/plus-round.svg" x="45" y="27" height="10" width="10" />
+
+          <filter id="shadow">
+            <feDropShadow dx="4" dy="8" stdDeviation="4" />
+          </filter>
         </svg>
       </div>
       
-      <div class="col-12 order-4" id="materialText">
-        <p class="col-10 offset-1">
-          Du kan enkelt byta ut material till mer miljövänliga alternativ. Kläder som på riktigt är bra för dig och vår miljö!
-        </p>
-      </div>
+      <p class="col-10 order-4 offset-1" id="materialText">
+        Du kan enkelt byta ut material till mer miljövänliga alternativ. Kläder som på riktigt är bra för dig och vår miljö!
+      </p>
     </div>
     
     <div class="row" id="shopLinkSection">

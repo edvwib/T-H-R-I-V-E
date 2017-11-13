@@ -3,6 +3,12 @@ nav {
     display: none;
 }
 
+/*MAIN*/
+.header{
+  font-size: 100px;
+  line-height: 77px;
+}
+
 /** Scale background **/
 main.container-fluid {
     background-position-x: 75%;
@@ -21,22 +27,20 @@ main.container-fluid {
 
 
 /*MATERIALS*/
-#materialsHead{
-  
-}
 #materialsHead .header{
   font-size: 100px;
   line-height: 77px;
 }
 #materialSection{
-  height: auto;
+  height: 200vh; /*auto senare?*/
 }
 #materialSection h3{
   font-size: 42px;
   line-height: 45px;
 }
 #triangleSVG{
-  height: 100%;
+  width: 100%;
+  height: 85%;
 }
 #triangleSVG > text{
   font-size: .35em;
@@ -44,4 +48,5 @@ main.container-fluid {
 #materialText{
   font-size: 16px;
   line-height: 24px;
+  letter-spacing: 1px;
 }

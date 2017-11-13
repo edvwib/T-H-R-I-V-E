@@ -88,7 +88,7 @@ main.container-fluid {
 .header {
   font-family: 'DIN', sans-serif;
   font-size: 6em;
-  line-height: 75px;
+  line-height: 77px;
   display: block;
   text-align: left;
   color: #F8A940;
@@ -145,16 +145,17 @@ section {
 
 
 /*MATERIALS*/
-#materialHead{
+#materialHeader{ /*todo: change for higher res image*/
   background: url('../../img/materials/headerBackground.jpg');
   background-size: cover;
+  background-position-x: 100%;
   height: 100vh;
 }
 #materialHeader{ height: 100vh;}
-#materialHead .header{
+#materialHeader .header{
   text-align: left;
 }
-#materialHead h1{
+#materialHeader h1{
   height: 14%;
 }
 #materialSection{
@@ -164,6 +165,9 @@ section {
 #materialSection h3{
   color: white;
   font-family: 'DIN', sans-serif;
+}
+.trianglePart{
+  /*todo: add shadow to triangle*/
 }
 #triangleSVG > text{
   fill: white;

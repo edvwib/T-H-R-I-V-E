@@ -63,6 +63,7 @@ nav {
   height: 70px;
 
   display: flex;
+  display: none; /*hidden for testing*/
   flex-direction: row;
   justify-content: center;
   background: #ffffff;
@@ -87,15 +88,21 @@ main.container-fluid {
 .logotext {padding-top: 65px;}
 .header {
   font-family: 'DIN', sans-serif;
-  font-size: 6em;
-  line-height: 77px;
-  display: block;
+  font-size: 177px;
+  line-height: 135px;
   text-align: left;
-  color: #F8A940;
+  color: #F8A940; 
 }
 
 .whiteHeader {
   color: white;
+}
+#header .orangeHeader{
+  display: inline;
+  padding: 0;
+}
+#header h1:nth-child(4){
+  padding-left: 15px;
 }
 
 /** SECTION **/
@@ -145,7 +152,7 @@ section {
 
 
 /*MATERIALS*/
-#materialHeader{ /*todo: change for higher res image*/
+#materialHeader{ /*todo: change for higher res image maybe*/
   background: url('../../img/materials/headerBackground.jpg');
   background-size: cover;
   background-position-x: 100%;
@@ -189,6 +196,7 @@ section {
   height: 100vh;
 }
 #shopLinkSection > h2{
+  height: 0;
   color: #F49932;
   font-family: 'DIN', sans-serif;  
 

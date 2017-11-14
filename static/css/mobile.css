@@ -11,15 +11,18 @@ nav {
 
 /** Scale background **/
 main.container-fluid {
-    background-position-x: 75%;
+  background-position-x: 75%;
 }
 .logotext {padding-top: 185px;}
+#header h1:nth-child(5){
+  padding-left: 15px;
+}
 
 /** first Section slideshow should change positions & scaling **/
 #slideshow-section, #infosection { float: unset;}
 #infosection h1 {font-size: 2.5em; line-height: 1.1;}
 #infosection, p {width: 90% !important;}
-
+.image-slideshow{width: 100%;}
 /** TODO: Move slideshow above text, somehow **/
 
 
@@ -50,3 +53,7 @@ main.container-fluid {
   line-height: 24px;
   letter-spacing: 1px;
 }
+
+
+/*SHOPLINK*/
+#shopLinkSection{padding-top: 25%;}

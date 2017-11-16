@@ -122,33 +122,27 @@ section {
 }
 
 #infoHeader { 
+  font-family: 'DIN', sans-serif;
   font-size: 68px; 
   line-height: 75px;
   letter-spacing: 2px;
-  margin-left: 24px;
   color: #F49932;
 }
 #infosection p  {
-   width: 55%;
+   width: 75%;
    margin-top: 45px;
-   margin-left: 24px;
    font-size: 18px;
-   line-height: 1.5;
+   line-height: 27px;
    color: #110E0D;
 }
-
-#slideshow-section {
-  height: 500px;
-}
 .sliderImg{
- 
+  /* height: 100%; */
 }
 .cocoen, .cocoen div{
   width: 450px;
 }
 
 section > a{
-  margin-left: 24px;
 }
 
 

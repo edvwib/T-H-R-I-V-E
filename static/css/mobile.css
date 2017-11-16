@@ -19,23 +19,23 @@ nav {
 }
 
 /** first Section slideshow should change positions & scaling **/
-#slideshow-section, #infosection { float: unset;}
-#infosection h1 {font-size: 2.5em; line-height: 1.1;}
-#infosection, p {width: 90% !important;}
+section{
+  height: auto;
+}
+#infoHeader {font-size: 42px; line-height: 45px;}
+#infosection p {
+  width: auto;
+}
 .image-slideshow{width: 100%;}
-/** TODO: Move slideshow above text, somehow **/
-
-
-
 
 
 /*MATERIALS*/
-#materialsHead .header{
-  font-size: 100px;
-  line-height: 77px;
+#materialHeader{ height: 100vh;}
+#materialHeader .header{
+  display: block;
 }
 #materialSection{
-  height: 200vh; /*auto senare?*/
+  height: auto; /*auto senare?*/
 }
 #materialSection h3{
   font-size: 42px;

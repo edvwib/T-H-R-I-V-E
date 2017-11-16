@@ -142,9 +142,6 @@ section {
   width: 450px;
 }
 
-section > a{
-}
-
 
 
 /*MATERIALS*/
@@ -154,15 +151,19 @@ section > a{
   background-position-x: 100%;
   height: 100vh;
 }
-#materialHeader{ height: 100vh;}
+#materialHeader{ height: 90vh;}
 #materialHeader .header{
   text-align: left;
+  font-size: 68px;
+  line-height: 75px;
+  letter-spacing: 2px;
+  display: inline;
 }
 #materialHeader h1{
   height: 14%;
 }
 #materialSection{
-  height: 855px;
+  height: auto;
   background-color: #64CBD5;
 }
 #materialSection h3{
@@ -175,6 +176,7 @@ section > a{
 #triangleSVG > text{
   fill: white;
   font-family: 'DIN', sans-serif;
+  font-size: 0.275em;
 }
 #triangleSVG > circle{
   fill: #F8A940;
@@ -182,7 +184,10 @@ section > a{
 }
 #materialText{
   color: white;
-  font-family: 'MuliSemi', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 1px;
+
 }
 
 

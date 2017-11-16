@@ -1,0 +1,28 @@
+
+.cocoen-drag{
+  transition: left 1s;
+
+}
+.cocoen > div:first-child{
+  transition: width 1s;
+}
+.notransition {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+}
+
+
+/* Custom starting point for slider */
+.cocoen-drag{left: 75%;}
+.cocoen > div:first-child, picture .cocoen > div{width: 75%;}
+
+/* Animate */
+.cocoen-drag::before{
+  animation: dragAnimation alternate infinite 1s;
+}
+@keyframes dragAnimation{
+  from{}
+  to{}
+}

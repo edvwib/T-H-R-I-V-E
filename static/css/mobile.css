@@ -10,7 +10,7 @@ nav {
 }
 
 /** Scale background **/
-main.container-fluid {
+.logotext {
   background-position-x: 75%;
 }
 .logotext {padding-top: 185px;}

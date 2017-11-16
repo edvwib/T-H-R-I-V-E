@@ -11,7 +11,7 @@ $(document).ready(function(){
 
 
   //Initialize image slider
-  // $('.cocoen').cocoen();
+  $('.cocoen').cocoen();
 
 
   //Triangle hover

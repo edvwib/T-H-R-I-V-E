@@ -50,6 +50,7 @@ section{
 }
 #materialSection{
   height: auto; /*auto senare?*/
+  margin-top: 12px;
 }
 #materialSection h3{
   font-size: 42px;

@@ -57,7 +57,17 @@ section{
 
 /*SHOPLINK*/
 #shopLinkSection{padding-top: 25%;}
-.outro-text{
-  margin-top: 5%;
-  text-align: left;
+.headerText {
+  padding: 1px;
+  width: 255px;
+  height: 0;
+
+  width: 255px;
+  font-size: 45px;
+  word-wrap: break-word;
+  margin: -40% 0px 0px -5%;
+  line-height: 45px;
+
+  font-size: 45px;
+  word-wrap: break-word;
 }

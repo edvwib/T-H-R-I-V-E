@@ -207,7 +207,7 @@ section {
 }
 
 .headerText {
-  height: 0;
+  height: 1;
   color: #F49932;
   font-family: 'DIN', sans-serif;
   font-size: 4em;

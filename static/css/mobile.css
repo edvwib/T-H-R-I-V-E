@@ -11,8 +11,8 @@ nav {
 
 #header {
   padding: 7px;
-  transform: scale(0.8);
-  margin: -55px;
+  transform: scale(0.7);
+  margin-top: -40% !important;
 }
 
 /** Scale background **/

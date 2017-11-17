@@ -29,5 +29,6 @@
   left: 40%;
   margin-top: -34px;
   margin-left: -34px;
-  background-color: #F49932;
+  background-image: url(../../img/icon/drag-icon.svg);
+  background-size: contain;
 }

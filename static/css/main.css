@@ -29,11 +29,11 @@ body {
 
 .shopLink{
   background-clip: content-box;
-  background-color: #ED8700;
+  background-color: #F8A940;
   color: white;
   padding: 4px;
   box-shadow: 0px 1px 6px #000;
-  border: #ED8700 solid 4px;
+  border: #F8A940 solid 4px;
   height: 90px;
   font-family: 'DIN', sans-serif;
   font-size: 26px;
@@ -205,16 +205,12 @@ section {
 
 .whiteHeader {
   height: 0;
-  color: #ED8700;
+  color: #F8A940;
   font-family: 'DIN', sans-serif;
 
   font-size: 5em;
   letter-spacing: 2.5px;
   line-height: 45px;
-}
-
-#shopLinkSection .shopLink {
- /* width: 450px; */
 }
 
 /*SHOPLINK- ANIMSTATE*/
@@ -224,6 +220,7 @@ section {
 }
 
 .shopLink:hover {
-  border-color: #F8C740;
+  border-color: #ED8700;
+  background-color: #ED8700;
   transition: 0.5s all ease;
 }

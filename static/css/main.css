@@ -117,11 +117,8 @@ section {
 }
 
 #infosection {
-  /* width: 55%; */
-  /* min-height: 400px; */
   height: auto;
-  /* float: left; */
-}
+} #infosection span {font-weight: 600;}
 
 #infoHeader {
   font-family: 'DIN', sans-serif;
@@ -136,6 +133,7 @@ section {
    font-size: 18px;
    line-height: 27px;
    color: #110E0D;
+   padding-bottom: 50px;
 }
 .sliderImg{
   /* height: 100%; */

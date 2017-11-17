@@ -33,6 +33,14 @@ section{
 #materialHeader{ height: 100vh;}
 #materialHeader .header{
   display: block;
+  font-size: 100px;
+  line-height: 77px;
+  letter-spacing: normal;
+}
+.materialHeaderWrapper{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 #materialSection{
   height: auto; /*auto senare?*/

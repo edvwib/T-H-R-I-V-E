@@ -26,23 +26,23 @@ body {
   padding: 0;
   margin: 0;
 }
+
 .shopLink{
   background-clip: content-box;
+  background-color: #ED8700;
+
   background-color: #F8A940;
   color: white;
   padding: 4px;
-  border: #F8A940 solid 4px;
+  box-shadow: 0px 1px 6px #000;
+  border: #ED8700 solid 4px;
   height: 90px;
   font-family: 'DIN', sans-serif;
   font-size: 26px;
   line-height: 74px;
   text-align: center;
-}
-.shopLink:hover{
-  text-decoration: none;
-  color: white;
-  background-color: #ED8700;
-  border-color: #ED8700;
+
+  transition: 0.5s all ease;
 }
 
 /** HEADER **/
@@ -98,9 +98,6 @@ nav {
   color: #F8A940;
 }
 
-.whiteHeader {
-  color: white;
-}
 #header .orangeHeader{
   display: inline;
   padding: 0;
@@ -197,16 +194,39 @@ section {
 
 
 /*SHOPLINK*/
-#shopLinkSection{
+#shopLinkSection {
   background-color: #F1F1F1;
   height: 100vh;
+
 }
-#shopLinkSection > h2{
+
+.outro-text {
+  margin: 0 auto;
+  margin-top: 40%;
+}
+
+.whiteHeader {
   height: 0;
-  color: #F49932;
+  color: #ED8700;
   font-family: 'DIN', sans-serif;
 
-  font-size: 42px;
-  letter-spacing: 1px;
+  font-size: 5em;
+  letter-spacing: 2.5px;
   line-height: 45px;
+}
+
+#shopLinkSection .shopLink {
+ /* width: 450px; */
+}
+
+/*SHOPLINK- ANIMSTATE*/
+.row a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.shopLink:hover {
+  border-color: #F8C740;
+  background-color: #ED8700;
+  transition: 0.5s all ease;
 }

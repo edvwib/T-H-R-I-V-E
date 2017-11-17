@@ -29,7 +29,12 @@ body {
 
 .shopLink{
   background-clip: content-box;
+<<<<<<< HEAD
+  background-color: #F8A940;
+=======
   background-color: #ED8700;
+
+>>>>>>> [CSS] Enhance outro styling & button experiments
   color: white;
   padding: 4px;
   box-shadow: 0px 1px 6px #000;
@@ -41,6 +46,12 @@ body {
   text-align: center;
 
   transition: 0.5s all ease;
+}
+.shopLink:hover{
+  text-decoration: none;
+  color: white;
+  background-color: #ED8700;
+  border-color: #ED8700;
 }
 
 /** HEADER **/
@@ -205,8 +216,13 @@ section {
 
 .whiteHeader {
   height: 0;
-  color: #ED8700;
+<<<<<<< HEAD
+  color: #F49932;
   font-family: 'DIN', sans-serif;
+=======
+  color: #ED8700;
+  font-family: 'DIN', sans-serif;  
+>>>>>>> [CSS] Enhance outro styling & button experiments
 
   font-size: 5em;
   letter-spacing: 2.5px;
@@ -225,5 +241,6 @@ section {
 
 .shopLink:hover {
   border-color: #F8C740;
+  background-color: #ED8700;
   transition: 0.5s all ease;
 }

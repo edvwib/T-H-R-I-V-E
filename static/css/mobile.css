@@ -57,3 +57,7 @@ section{
 
 /*SHOPLINK*/
 #shopLinkSection{padding-top: 25%;}
+.outro-text{
+  margin-top: 5%;
+  text-align: left;
+}

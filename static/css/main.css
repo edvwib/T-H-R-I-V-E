@@ -113,7 +113,7 @@ section {
   padding-top: 120px;
   background: #F2F1EF;
   min-height: 700px;
-  height: auto;
+  height: 105vh;
 }
 
 #infosection {
@@ -203,11 +203,10 @@ section {
 .outro-text {
   margin: 0 auto;
   margin-top: 40%;
-  text-align: center;
 }
 
 .headerText {
-  height: 0;
+  height: 1;
   color: #F49932;
   font-family: 'DIN', sans-serif;
   font-size: 4em;

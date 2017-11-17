@@ -9,6 +9,12 @@ nav {
   line-height: 77px;
 }
 
+#header {
+  padding: 7px;
+  transform: scale(0.8);
+  margin: -55px;
+}
+
 /** Scale background **/
 .logotext {
   background-position-x: 75%;

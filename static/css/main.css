@@ -28,7 +28,6 @@ body {
 }
 .shopLink{
   background-clip: content-box;
-
   background-color: #F8A940;
   color: white;
   padding: 4px;
@@ -38,6 +37,12 @@ body {
   font-size: 26px;
   line-height: 74px;
   text-align: center;
+}
+.shopLink:hover{
+  text-decoration: none;
+  color: white;
+  background-color: #ED8700;
+  border-color: #ED8700;
 }
 
 /** HEADER **/
@@ -90,7 +95,7 @@ nav {
   font-size: 177px;
   line-height: 135px;
   text-align: left;
-  color: #F8A940; 
+  color: #F8A940;
 }
 
 .whiteHeader {
@@ -121,9 +126,9 @@ section {
   /* float: left; */
 }
 
-#infoHeader { 
+#infoHeader {
   font-family: 'DIN', sans-serif;
-  font-size: 68px; 
+  font-size: 68px;
   line-height: 75px;
   letter-spacing: 2px;
   color: #F49932;
@@ -199,7 +204,7 @@ section {
 #shopLinkSection > h2{
   height: 0;
   color: #F49932;
-  font-family: 'DIN', sans-serif;  
+  font-family: 'DIN', sans-serif;
 
   font-size: 42px;
   letter-spacing: 1px;

@@ -1,7 +1,6 @@
 
 .cocoen-drag{
   transition: left 1s;
-
 }
 .cocoen > div:first-child{
   transition: width 1s;
@@ -15,14 +14,20 @@
 
 
 /* Custom starting point for slider */
-.cocoen-drag{left: 75%;}
-.cocoen > div:first-child, picture .cocoen > div{width: 75%;}
+.cocoen-drag{left: 35%;}
+.cocoen > div:first-child, picture .cocoen > div{width: 35%;}
 
-/* Animate */
-.cocoen-drag::before{
-  animation: dragAnimation alternate infinite 1s;
+/* Icon to drag */
+.cocoen-drag{
+  width: 3px;
 }
-@keyframes dragAnimation{
-  from{}
-  to{}
+.cocoen-drag::before{
+  border-color: #F1F1F1;
+  height: 68px;
+  width: 68px;
+  border-radius: 34px;
+  left: 40%;
+  margin-top: -34px;
+  margin-left: -34px;
+  background-color: #F49932;
 }

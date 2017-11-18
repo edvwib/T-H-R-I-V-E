@@ -69,11 +69,40 @@ section{
 }
 
 /* POPUPS */
- .overlay{
-  height: 100vh;
+#popup1{
   background-image: url(../../img/materials/bark.jpeg);
+}
+#popup2{
+  background-image: url(../../img/materials/pet.jpg);
+}
+#popup3{
+  background-image: url(../../img/materials/cotton.jpg);
+}
+.overlay p{
+  overflow: scroll;
+  height: 65%;
+}
+.overlay{
+  height: 100vh;
   background-size: cover;
   color: white;
+  font-size: 18px;
+  transition: all 1s;
+}
+.popup{
+  background-color: rgba(0, 0, 0, .3)
+}
+.popupClose{
+  border: 3px solid black;
+  background-image: url(../../img/icon/close-icon.svg);
+  background-size: contain;
+  filter: invert(100%);
+  display: block;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 8%;
+  left: 15%;
 }
 
 

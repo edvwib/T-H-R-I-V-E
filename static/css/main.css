@@ -173,12 +173,12 @@ section {
 .trianglePart{
   /*todo: add shadow to triangle*/
 }
-#triangleSVG > text{
+#triangleSVG text{
   fill: white;
   font-family: 'DIN', sans-serif;
   font-size: 0.275em;
 }
-#triangleSVG > circle{
+#triangleSVG circle{
   fill: #F8A940;
   stroke: white;
 }

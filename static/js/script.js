@@ -26,14 +26,14 @@ $(document).ready(function(){
   //   }, false);
   // });
     
-  window.addEventListener('hashchange', function(){
-    url = window.location.href.split("#").pop();
-    console.log(url);
-    if (url === 'popup2'){
-      console.log('hej');
+  // window.addEventListener('hashchange', function(){
+  //   url = window.location.href.split("#").pop();
+  //   console.log(url);
+  //   if (url === 'popup2'){
+  //     console.log('hej');
       
-    }
-  });
+  //   }
+  // });
   
 
   

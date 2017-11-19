@@ -25,19 +25,19 @@
   </header>
   <main class="container-fluid">
     <div class="row logotext">
-      <div class="col-8 ml-1 ml-md-5 mt-md-5" id="header">
+      <div class="col-8 ml-1 ml-sm-5 mt-sm-5" id="header">
         <h1 class="col-12 whiteHeader header">TRANS</h1>
         <h1 class="col-12 whiteHeader header">FORM</h1>
         <h1 class="col-12 whiteHeader header">ING</h1>
-        <h1 class="col-12 col-md-6 orangeHeader header">FASH</h1>
-        <h1 class="col-12 col-md-6 orangeHeader header">ION</h1>
+        <h1 class="col-12 col-sm-6 orangeHeader header">FASH</h1>
+        <h1 class="col-12 col-sm-6 orangeHeader header">ION</h1>
       </div>
     </div>
 
     <section class="row">
       <!-- TODO: move all leftside elements inside infosection, so that slider has more space -->
-      <h1 id="infoHeader" class="col-11 offset-md-1 order-1">FROM PLASTIC BOTTLES... <br>TO JACKETS</h1>
-      <div id="infosection" class="col-12 col-md-5 offset-md-1 order-3 order-md-2">
+      <h1 id="infoHeader" class="col-11 offset-sm-1 order-1">FROM PLASTIC BOTTLES... <br>TO JACKETS</h1>
+      <div id="infosection" class="col-12 col-sm-5 offset-sm-1 order-3 order-sm-2">
         <p>
           Polyester är det vanligaste plastmaterialet vi tillverkar kläder av. Det kallas för ett syntetmaterial då det urvins ur olja,
           vilket inte är särskilt klimatsmart. Däremot kan vi idag återvinna plast och polyester (t.ex. gamla PET-flaskor) som vi sedan
@@ -48,18 +48,18 @@
           mode utan kompromisser.
         </p>
       </div>
-      <div id="slideshow-section" class="col-12 col-md-6 order-2 order-md-3">
-        <div class="cocoen col-12 col-md-8 offset-md-2">
+      <div id="slideshow-section" class="col-12 col-sm-6 order-2 order-sm-3">
+        <div class="cocoen col-12 col-sm-8 offset-sm-2">
           <img class="sliderImg" src="img/slideshow-1/jacka_flaska.png" alt="compare1">
           <img class="sliderImg" src="img/slideshow-1/jacka_svart.png" alt="compare2">
         </div>
       </div>
-      <a class="col-10 col-md-3 offset-1 offset-md-1 order-4 mb-5 shopLink" href="http://www.thrivestore.se">SHOPPA HÄR</a>
+      <a class="col-10 col-sm-3 offset-1 offset-sm-1 order-4 mb-5 shopLink" href="http://www.thrivestore.se">SHOPPA HÄR</a>
     </section>
 
     <div class="row" id="materialSection">
-      <div class="col-12 col-md-5 order-1 order-md-2" id="materialHeader">
-        <div class="materialHeaderWrapper">
+      <div class="col-12 col-sm-5 order-1 order-sm-2" id="materialHeader">
+        <div class="materialHeaderWrapper col-8 col-sm-10">
           <h1 class="header whiteHeader">TRANS</h1>
           <h1 class="header whiteHeader">FORM</h1>
           <h1 class="header whiteHeader">YOUR</h1>
@@ -68,10 +68,10 @@
         </div>
       </div>
 
-      <div class="col-12 col-md-7 order-2 order-md-1" id="materialInfoWrapper">
-        <h3 class="col-12 order-1 d-md-none">TRANSFORM YOUR MATERIALS</h3>
+      <div class="col-12 col-sm-7 order-2 order-sm-1" id="materialInfoWrapper">
+        <h3 class="col-12 order-1 d-sm-none">TRANSFORM YOUR MATERIALS</h3>
 
-        <div class="col-12 col-md-9 offset-md-1 order-2 mt-5" id="materialTriangle">
+        <div class="col-12 col-sm-9 offset-sm-1 order-2 mt-5" id="materialTriangle">
           <svg class="" id="triangleSVG" viewBox="0 0 100 100" preserveAspectRatio="none">
             <image clip-path="url(#topImage)" width="100%" height="100%" xlink:href="img/materials/bark.jpeg" preserveAspectRatio="xMidYMid slice"></image>
             <image clip-path="url(#leftImage)" width="100%" height="100%" xlink:href="img/materials/pet.jpg" preserveAspectRatio="xMidYMid slice"></image>
@@ -98,6 +98,14 @@
               <circle cx="50" cy="32" r="9" />
               <image xlink:href="img/icon/plus-round.svg" x="45" y="27" height="10" width="10" />
             </a>
+            <a class="popupOpen" href="#popup2">
+              <circle cx="30" cy="68" r="9" />
+              <image xlink:href="img/icon/plus-round.svg" x="25" y="63" height="10" width="10" />
+            </a>
+            <a class="popupOpen" href="#popup3">
+              <circle cx="70" cy="68" r="9" />
+              <image xlink:href="img/icon/plus-round.svg" x="65" y="63" height="10" width="10" />
+            </a>
 
             <filter id="shadow">
               <feDropShadow dx="4" dy="8" stdDeviation="4" />
@@ -105,14 +113,14 @@
           </svg>
         </div>
       </div>
-      <p class="col-12 order-3" id="materialText">
+      <p class="col-12 col-sm-4 offset-sm-7 order-3" id="materialText">
         Modeindustrin är både snårig och smutsig innan plagget hänger på galgen. Under tillverkningsprocessen används det ofta mycket
         kemikalier, olja och stora mängder vatten som förorenar miljön och försämrar hälsan hos människor som bor runtom industrierna.
         <br>
         <br>Du kan enkelt byta ut dessa material till mer miljövänliga alternativ. Kläder som på riktigt är bra för dig och vår miljö!
       </p>
 
-      <div id="popups">
+      <div id="popups" class="order-4">
         <div id="popup1" class="row overlay">
           <div class="popup col-12 pt-5">
             <h4 class="col-10 offset-1"><s>Viskos</s></h4>
@@ -164,7 +172,7 @@
       <div class="outro-text">
         <h2 class="headerText">SO LETS TRANSFORM YOUR FASHION</h2>
       </div>
-      <a class="col-10 col-md-4 offset-1 offset-md-4 shopLink" href="http://www.thrivestore.se">SHOPPA HÄR</a>
+      <a class="col-10 col-sm-4 offset-1 offset-sm-4 shopLink" href="http://www.thrivestore.se">SHOPPA HÄR</a>
     </div>
   </main>
 

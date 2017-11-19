@@ -91,6 +91,10 @@ section{
   font-size: 18px;
   transition: all 1s;
 }
+.overlay:target{
+  visibility: visible;
+  opacity: 1;
+}
 .popup{
   background-color: rgba(0, 0, 0, .3)
 }

@@ -207,8 +207,8 @@ section {
   opacity: 0;
 }
 .overlay:target{
-  visibility: visible;
-  opacity: 1;
+  visibility: hidden;
+  opacity: 0;
 }
 .popupOpen{
   cursor: pointer;

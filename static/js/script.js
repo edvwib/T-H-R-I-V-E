@@ -55,11 +55,13 @@ $(document).ready(function(){
       }
     });
   });
-  const popupClose = document.querySelectorAll('.popupClose');
-  popupClose.forEach.addEventListener('click', function(e){
-    text.innerHTML = 'Modeindustrin är både snårig och smutsig innan plagget hänger på galgen. Under tillverkningsprocessen används det ofta mycket kemikalier, olja och stora mängder vatten som förorenar miljön och försämrar hälsan hos människor som bor runtom industrierna.<br><br>Du kan enkelt byta ut dessa material till mer miljövänliga alternativ. Kläder som på riktigt är bra för dig och vår miljö!';
+  const popupCloseButtons = document.querySelectorAll('.popupClose');
+  popupCloseButtons.forEach(function(popupClose){
+    popupClose.addEventListener('click', function (e) {
+      text.innerHTML = 'Modeindustrin är både snårig och smutsig innan plagget hänger på galgen. Under tillverkningsprocessen används det ofta mycket kemikalier, olja och stora mängder vatten som förorenar miljön och försämrar hälsan hos människor som bor runtom industrierna.<br><br>Du kan enkelt byta ut dessa material till mer miljövänliga alternativ. Kläder som på riktigt är bra för dig och vår miljö!';
+    });
   });
-
+    
   
 
   //Triangle hover

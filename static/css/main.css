@@ -151,7 +151,7 @@ section {
   background-position-x: 100%;
   height: 100vh;
 }
-#materialHeader{ 
+#materialHeader{
   height: 90vh;
   padding-top: 5%;
 }
@@ -230,7 +230,7 @@ section {
 
 .outro-text {
   margin: 0 auto;
-  margin-top: 40%;
+  margin-top: 15%;
 }
 
 .headerText {

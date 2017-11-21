@@ -143,10 +143,21 @@ nav {
   fill: #F8A940;
   stroke: white;
 }
+#materialTriangleTitle tspan{
+  font-family: 'MuliExtra', sans-serif;
+  font-size: 6px;
+}
+#materialTriangleTitle tspan:first-child{
+  font-family: 'MuliSemi', sans-serif;
+  text-decoration: line-through;
+}
 .popupOpen{
   cursor: pointer;
 }
-.popupOpen circle, .popupOpen image{transition: all 3s;}
+.popupOpen image{
+  transform-origin: 50% 50%;
+}
+.popupOpen circle, .popupOpen image{transition: all 1.5s;}
 #materialText{
   color: white;
   z-index: 10;

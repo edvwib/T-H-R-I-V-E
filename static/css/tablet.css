@@ -1,0 +1,50 @@
+#materialHeader{
+  max-height: 80vh;
+}
+#materialHeader > div{
+  align-self: flex-start;
+}
+#materialHeader .headerTitle{
+  font-size: 60px;
+  line-height: 45px;
+}
+
+#materialText{
+  position: absolute;
+  margin-top: 20%;
+  overflow-y: auto;
+  max-height: 62%;
+}
+
+
+
+/*popups*/
+.overlay:target{
+  visibility: hidden;
+  opacity: 0;
+}
+
+
+/*Scrollbar tablet and larger*/
+
+#materialText::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+#materialText::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+#materialText::-webkit-scrollbar-thumb
+{
+	background-color: #F90;
+	background-image: -webkit-linear-gradient(90deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+}
+#triangleSVG{
+  max-height: 470px;
+  max-width: 470px;
+}

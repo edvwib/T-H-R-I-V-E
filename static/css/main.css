@@ -8,7 +8,6 @@
 
 /*General*/
 /*********/
-
 @font-face {
     font-family: 'DIN';
     src: url("../font/DIN_Condensed_Bold.ttf") format("truetype");
@@ -22,13 +21,18 @@
     src: url("../font/Muli-SemiBold.ttf") format("truetype");
 }
 
-body {
-  padding: 0;
-  margin: 0;
+.title{
+  font-family: 'DIN', sans-serif;
+  font-size: 42px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 45px;
 }
-
-.whiteHeader {color: #ffffff !important;}
-
+.text{
+  font-family: 'MuliSemi', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+}
 .shopLink{
   background-clip: content-box;
   background-color: #F8A940;
@@ -41,143 +45,68 @@ body {
   font-size: 26px;
   line-height: 74px;
   text-align: center;
-
   transition: 0.5s all ease;
 }
 
-/** HEADER **/
-/************/
 
-#logo {
-  align-self: center;
-  background-size: contain;
-  margin: 0 auto;
-}
-
-nav.large #logo {
-  background-image: url('../../img/logo/logo_text.svg');
-  background-repeat: no-repeat;
-  width: 200px;
-  height: 60%;
-  margin: 0 auto;
-}
-
-nav {
-  z-index: 1;
-  width: 100%;
-  height: 70px;
-
+/*HEADERS*/
+.header{
   display: flex;
-  display: none; /*hidden for testing*/
-  flex-direction: row;
-  justify-content: center;
-  background: #ffffff;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
 }
-
-/** MAIN **/
-/***********/
-
-.logotext {
+#header{
+  background-color: #F1F1F1;
   background-image: url('../../img/header1.png');
-  background-size: cover;
+  background-position-x: 75%;
   background-repeat: no-repeat;
-  background-position: right;
-  height: 100vh;
-}
-
-@media screen and (max-width: 550px){
-  #splashpage{background-position: 80%;}
-}
-
-.logotext {padding-top: 65px;}
-.header {
-  font-family: 'DIN', sans-serif;
-  font-size: 177px;
-  line-height: 135px;
-  text-align: left;
-  color: #F8A940;
-}
-
-#header .orangeHeader{
-  display: inline;
-  padding: 0;
-}
-#header h1:nth-child(4){
-  padding-left: 15px;
-}
-
-/** SECTION **/
-/*************/
-
-section {
-  padding-top: 120px;
-  background: #F2F1EF;
-  min-height: 700px;
-  height: 105vh;
-}
-
-#infosection {
-  height: auto;
-} #infosection span {font-weight: 600;}
-
-#infoHeader {
-  font-family: 'DIN', sans-serif;
-  font-size: 68px;
-  line-height: 75px;
-  letter-spacing: 2px;
-  color: #F49932;
-}
-#infosection p  {
-   width: 75%;
-   margin-top: 45px;
-   font-size: 18px;
-   line-height: 27px;
-   color: #110E0D;
-   padding-bottom: 50px;
-}
-.sliderImg{
-  /* height: 100%; */
-}
-.cocoen, .cocoen div{
-  width: 450px;
-}
-
-
-
-/*MATERIALS*/
-#materialHeader{ /*todo: change for higher res image maybe*/
-  background: url('../../img/materials/headerBackground.jpg');
-  background-size: cover;
-  background-position-x: 100%;
-  height: 100vh;
 }
 #materialHeader{
-  height: 90vh;
-  padding-top: 5%;
+  background: url('../../img/materials/headerBackground.jpg');
+  /* background-position-x: 100%; */
+  /* background-position-y: 40%; */
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
 }
-#materialHeader .header{
-  text-align: left;
-  font-size: 68px;
-  line-height: 75px;
-  letter-spacing: 2px;
-  display: inline;
-}
-#materialHeader h1{
-  height: 14%;
-}
-#materialSection{
-  height: auto;
-  background-color: #64CBD5;
-}
-#materialSection h3{
-  color: white;
+.headerTitle{
   font-family: 'DIN', sans-serif;
+  font-size: 100px;
+  font-weight: bold;
+  line-height: 77px;
+  text-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
 }
-#materialTriangle{
-  padding-top: 12%;
+.headerTitle.white{
+  color: white;
 }
-.trianglePart{
-  /*todo: add shadow to triangle*/
+.headerTitle.orange{
+  color: #F49932;
+}
+
+/*InfoSection*/
+#infoSection{
+  background-color: #F1F1F1;
+  display: flex;
+}
+#infoTitle{
+  color: #F49932;
+}
+#slideshow-section{
+  align-self: center;
+}
+
+
+/*materialSection*/
+#materialSection{
+  background-color: #64CBD5;
+  display: flex;
+}
+#materialTitle{
+  color: white;
+}
+#materialInfoWrapper{
+  align-self: center;
 }
 #triangleSVG text{
   fill: white;
@@ -188,67 +117,63 @@ section {
   fill: #F8A940;
   stroke: white;
 }
+.popupOpen{
+  cursor: pointer;
+}
 #materialText{
   color: white;
-  font-size: 18px;
-  line-height: 28px;
-  letter-spacing: 1px;
-  position: absolute;
-  margin-top: 230px;
-  padding-top: 5%;
 }
 
-/* POPUPS */
-/* #popups{display: none;} */
+  /*popus*/
+#popup1{
+  background-image: url(../../img/materials/bark.jpeg);
+}
+#popup2{
+  background-image: url(../../img/materials/pet.jpg);
+}
+#popup3{
+  background-image: url(../../img/materials/cotton.jpg);
+}
 .overlay{
   position: fixed;
   top: 0; bottom: 0; left: 0; right: 0;
   visibility: hidden;
   opacity: 0;
+  color: white;
+  background-size: cover;
+  height: 100vh;
+  z-index: 10;
+  transition: all 1s;
 }
 .overlay:target{
-  visibility: hidden;
-  opacity: 0;
+  visibility: visible;
+  opacity: 1;
 }
-.popupOpen{
-  cursor: pointer;
-}
-.popupOpen:hover{}
 .popup{
-
+  background-color: rgba(0, 0, 0, .3)
+}
+.overlay p{
+  overflow-y: scroll;
+  max-height: 60vh;
+}
+.popupClose{
+  border: 3px solid black;
+  background-image: url(../../img/icon/close-icon.svg);
+  background-size: contain;
+  filter: invert(100%);
+  display: block;
+  width: 50px;
+  height: 50px;
 }
 
 
-
-
-/*SHOPLINK*/
-#shopLinkSection {
-  background-color: #F1F1F1;
+/*FOOTER*/
+#footer{
+  display: flex;
+  align-items: center;
   height: 100vh;
-
+  background-color: #F1F1F1;
 }
-
-.outro-text {
-  margin: 0 auto;
-  margin-top: 15%;
-}
-
-.headerText {
-  height: 1;
+#footerTitle{
   color: #F49932;
-  font-family: 'DIN', sans-serif;
-  font-size: 4em;
-  letter-spacing: 2.5px;
-}
-
-/*SHOPLINK- ANIMSTATE*/
-.row a:hover {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.shopLink:hover {
-  border-color: #ED8700;
-  background-color: #ED8700;
-  transition: 0.5s all ease;
 }

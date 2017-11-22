@@ -210,16 +210,3 @@ nav {
   text-align: left;
   transform: scale(.65);
 }
-
-
-
-
-
-
-
-
-
-
-#triangleSVG > image{
-  filter: brightness(75%);
-}

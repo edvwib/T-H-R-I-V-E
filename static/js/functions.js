@@ -1,14 +1,14 @@
 /*-----------------------------TRIANGLE---------------------------------------*/
 /*Triangle backgrounds*/
 function restoreTriangleBackground(fullImage){
-  fullImage[0].setAttribute('href', 'img/materials/bark.jpeg');
+  fullImage[0].setAttribute('href', 'img/materials/bark.jpg');
   fullImage[1].setAttribute('href', 'img/materials/pet.jpg');
   fullImage[2].setAttribute('href', 'img/materials/cotton.jpg');
   fullImage[2].setAttribute('preserveAspectRatio', "xMaxYMax slice");
 }
 function fullLyocellBackground(fullImage){
   fullImage.forEach(function(imagePart){
-    imagePart.setAttribute('href', 'img/materials/bark.jpeg');
+    imagePart.setAttribute('href', 'img/materials/bark.jpg');
   });
   fullImage[2].setAttribute('preserveAspectRatio', "xMidYMid slice");
 }

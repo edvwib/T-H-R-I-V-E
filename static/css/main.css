@@ -173,48 +173,6 @@ nav {
   z-index: 10;
 }
 
-  /*popus*/
-#popup1{
-  background-image: url(../../img/materials/bark.jpeg);
-}
-#popup2{
-  background-image: url(../../img/materials/pet.jpg);
-}
-#popup3{
-  background-image: url(../../img/materials/cotton.jpg);
-}
-.overlay{
-  position: fixed;
-  top: 0; bottom: 0; left: 0; right: 0;
-  visibility: hidden;
-  opacity: 0;
-  color: white;
-  background-size: cover;
-  height: 100vh;
-  z-index: 10;
-  transition: all .5s;
-}
-.overlay:target{
-  visibility: hidden;
-  opacity: 0;
-}
-.popup{
-  background-color: rgba(0, 0, 0, .3)
-}
-.overlay p{
-  overflow-y: scroll;
-  max-height: 60vh;
-}
-.popupClose{
-  border: 3px solid black;
-  background-image: url(../../img/icon/close-icon.svg);
-  background-size: contain;
-  filter: invert(100%);
-  display: block;
-  width: 50px;
-  height: 50px;
-}
-
 
 /*FOOTER*/
 #footer{

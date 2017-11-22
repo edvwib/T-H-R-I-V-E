@@ -18,23 +18,21 @@ $(document).ready(function(){
   const triangleFullImage = document.querySelectorAll('#triangleSVG > image');
   const materialTriangleTitles = document.querySelectorAll('#materialTriangleTitle > tspan');
 
-  const part = document.querySelector('#triangleTop');
+  const allTriangleParts = document.querySelectorAll('.trianglePart')
 
   const text = document.querySelectorAll('.materialText');
   const textDesktop = document.querySelector('#materialTextDesktop');
   const textMobile = document.querySelector('#materialTextMobile');
 
   let counter = 0;
-  setTextDefault(text, textDesktop, textMobile);
-  text.forEach(function(t){
-    t.classList.add('transition');
-  });
+
+  const part = document.querySelector('#triangleTop');
+
   popupOpen.addEventListener('click', function(e){
     switch (counter) {
       case 0:
-        part.setAttributeNS(null, 'points', '50,1 16,60 83,60');
-
         counter++;
+        fullTriangle(allTriangleParts);
         setTriangleTitlesLyocell(materialTriangleTitles);
         setTextLyocell(text, textDesktop, textMobile);
         fullLyocellBackground(triangleFullImage);
@@ -43,6 +41,7 @@ $(document).ready(function(){
         break;
       case 1: /*RESET TRIANGLE*/
         counter++;
+        dividedTriangle(allTriangleParts);
         imagePlus(image);
         clearTriangleTitles(materialTriangleTitles);
         setTextDefault(text, textDesktop, textMobile);
@@ -51,6 +50,7 @@ $(document).ready(function(){
         break;
       case 2:
         counter++;
+        fullTriangle(allTriangleParts);
         setTriangleTitlesPet(materialTriangleTitles);
         setTextPet(text, textDesktop, textMobile);
         fullPetBackground(triangleFullImage);
@@ -59,6 +59,7 @@ $(document).ready(function(){
         break;
       case 3: /*RESET TRIANGLE*/
         counter++;
+        dividedTriangle(allTriangleParts);
         imagePlus(image);
         clearTriangleTitles(materialTriangleTitles);
         setTextDefault(text, textDesktop, textMobile);
@@ -67,6 +68,7 @@ $(document).ready(function(){
         break;
       case 4:
         counter++;
+        fullTriangle(allTriangleParts);
         setTriangleTitlesCotton(materialTriangleTitles);
         setTextCotton(text, textDesktop, textMobile);
         fullCottonBackground(triangleFullImage);
@@ -75,6 +77,7 @@ $(document).ready(function(){
         break;
       case 5: /*RESET TRIANGLE*/
         counter = 0;
+        dividedTriangle(allTriangleParts);
         imagePlus(image);
         clearTriangleTitles(materialTriangleTitles);
         setTextDefault(text, textDesktop, textMobile);

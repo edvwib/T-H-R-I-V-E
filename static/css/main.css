@@ -220,10 +220,11 @@ nav {
 /*FOOTER*/
 #footer{
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   height: 100vh;
   background-color: #F1F1F1;
 }
 #footerTitle{
   color: #F49932;
+  text-align: center;
 }

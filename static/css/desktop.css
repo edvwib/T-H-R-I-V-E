@@ -7,3 +7,17 @@
 .text{
 
 }
+#materialHeader {
+  position: relative;
+  top: 43px;
+  left: 53px;
+  background-size: contain;
+  transform: scale(1.107);
+}
+
+#footerTitle{
+  margin-top: 25%;
+}
+#footer .shopLink{
+  margin-top: -15%;
+}

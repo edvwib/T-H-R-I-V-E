@@ -38,13 +38,13 @@
   background-color: #F8A940;
   color: white;
   padding: 4px;
-  margin: 0 auto;
   border: #F8A940 solid 4px;
   height: 90px;
   font-family: 'DIN', sans-serif;
   font-size: 26px;
   line-height: 74px;
   text-align: center;
+
   transition: 0.5s all ease;
 }
 
@@ -185,5 +185,26 @@ nav {
 }
 #footerTitle{
   color: #F49932;
+  text-align: center;
+}
+
+/*SHOPLINK*/
+#shopLinkSection {
+  background-color: #F1F1F1;
+  height: 100vh;
+
+}
+
+.outro-text {
+    margin: 0 auto;
+    margin-top: 15%;
+    padding-bottom: 12vh;
+}
+
+.headerText {
+  color: #F49932;
+  font-family: 'DIN', sans-serif;
+  font-size: 4em;
+  letter-spacing: 2.5px;
   text-align: center;
 }

@@ -21,14 +21,16 @@ $(document).ready(function(){
   const triangleFullImage = document.querySelectorAll('#triangleSVG > image');
   const materialTriangleTitles = document.querySelectorAll('#materialTriangleTitle > tspan');
 
-  const text = document.querySelector('#materialText');
+  const textDesktop = document.querySelector('#materialTextDesktop');
+  const textMobile = document.querySelector('#materialTextMobile');
+
   let counter = 0;
   popupOpen.addEventListener('click', function(e){
     switch (counter) {
       case 0:
         counter++;
         setTriangleTitlesLyocell(materialTriangleTitles);
-        setTextLyocell(text);
+        setTextLyocell(textDesktop, textMobile);
         fullLyocellBackground(triangleFullImage);
         imageCross(image);
         moveIconTop(circle, image, popupOpen);
@@ -37,13 +39,14 @@ $(document).ready(function(){
         counter++;
         imagePlus(image);
         clearTriangleTitles(materialTriangleTitles);
+        setTextDefault(textDesktop, textMobile);
         restoreTriangleBackground(triangleFullImage);
         moveIconLeft(circle, image, popupOpen);
       break;
       case 2:
         counter++;
         setTriangleTitlesPet(materialTriangleTitles);
-        setTextPet(text);
+        setTextPet(textDesktop, textMobile);
         fullPetBackground(triangleFullImage);
         imageCross(image);
         moveIconTop(circle, image, popupOpen);
@@ -52,13 +55,14 @@ $(document).ready(function(){
         counter++;
         imagePlus(image);
         clearTriangleTitles(materialTriangleTitles);
+        setTextDefault(textDesktop, textMobile);
         restoreTriangleBackground(triangleFullImage);
         moveIconRight(circle, image, popupOpen);
       break;
       case 4:
         counter++;
         setTriangleTitlesCotton(materialTriangleTitles);
-        setTextCotton(text);
+        setTextCotton(textDesktop, textMobile);
         fullCottonBackground(triangleFullImage);
         imageCross(image);
         moveIconTop(circle, image, popupOpen);
@@ -67,7 +71,7 @@ $(document).ready(function(){
         counter = 0;
         imagePlus(image);
         clearTriangleTitles(materialTriangleTitles);
-        setTextDefault(text);
+        setTextDefault(textDesktop, textMobile);
         restoreTriangleBackground(triangleFullImage);
         moveIconTop(circle, image, popupOpen);
       break;

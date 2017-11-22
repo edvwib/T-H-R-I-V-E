@@ -38,7 +38,6 @@
   background-color: #F8A940;
   color: white;
   padding: 4px;
-  box-shadow: 0px 1px 6px #000;
   border: #F8A940 solid 4px;
   height: 90px;
   font-family: 'DIN', sans-serif;
@@ -55,7 +54,7 @@
 }
 
 .shopLink:hover {
-  border-color: #F8C740;
+  border-color: #ED8700;
   background-color: #ED8700;
   transition: 0.5s all ease;
 }

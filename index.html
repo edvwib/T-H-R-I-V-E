@@ -37,14 +37,14 @@
 
     <div id="infoSection" class="row">
       <!-- TODO: move all leftside elements inside infosection, so that slider has more space -->
-      <h1 id="infoTitle" class="title col-12 col-sm-10 offset-sm-1 offset-xl-2 mt-5 order-md-1">FROM PLASTIC BOTTLES... <br>TO JACKETS</h1>
-      <div id="slideshow-section" class="col-10 col-sm-6 col-md-5 col-xl-3 offset-1 offset-sm-3 offset-md-0 offset-xl-1 mt-5 order-md-3">
+      <h1 id="infoTitle" class="title col-12 col-sm-10 offset-sm-1 offset-xl-1 mt-5 order-md-1">FROM PLASTIC BOTTLES... <br>TO JACKETS</h1>
+      <div id="slideshow-section" class="col-10 col-sm-6 col-md-5 col-xl-3 offset-1 offset-sm-3 offset-md-0 offset-xl-2 mt-5 order-md-3">
         <div class="cocoen">
           <img class="sliderImg" src="img/slideshow-1/jacka_flaska.png" alt="compare1">
           <img class="sliderImg" src="img/slideshow-1/jacka_svart.png" alt="compare2">
         </div>
       </div>
-      <div id="infoText" class="text col-12 col-sm-10 col-md-5 col-xl-4 offset-sm-1 offset-xl-2 mt-5 order-md-2">
+      <div id="infoText" class="text col-12 col-sm-10 col-md-5 <col-xl-5></col-xl-5> offset-sm-1 offset-xl-1 mt-5 order-md-2">
         <p>
           Polyester är det vanligaste plastmaterialet vi tillverkar kläder av. Det kallas för ett syntetmaterial då det urvins ur olja,
           vilket inte är särskilt klimatsmart. Däremot kan vi idag återvinna plast och polyester (t.ex. gamla PET-flaskor) som vi sedan
@@ -79,7 +79,7 @@
       <div class="col-12 col-sm-10 col-lg-7 offset-sm-1 offset-lg-0 order-lg-1" id="materialInfoWrapper">
         <h3 id="materialTitle" class="title mt-5 d-lg-none">TRANSFORM YOUR MATERIALS</h3>
 
-        <div class="col-md-10 offset-md-2 mt-5" id="materialTriangle">
+        <div class="col-md-10 offset-md-1 mt-5" id="materialTriangle">
           <svg class="" id="triangleSVG" viewBox="0 0 100 100" preserveAspectRatio="none">
             <image clip-path="url(#topImage)" width="100%" height="100%" xlink:href="img/materials/bark.jpeg" preserveAspectRatio="xMidYMid slice"></image>
             <image clip-path="url(#leftImage)" width="100%" height="100%" xlink:href="img/materials/pet.jpg" preserveAspectRatio="xMidYMid slice"></image>
@@ -87,15 +87,15 @@
 
             <clipPath id="topImage">
               <!-- In order of x,y: top, left, right -->
-              <polygon points="50,1 21,49 79,49" id="triangleTop" class="trianglePart" />
+              <polygon points="50,1 17,58.5 82,58.5" id="triangleTop" class="trianglePart" />
             </clipPath>
             <clipPath id="leftImage">
               <!-- In order of x,y: top left, bottom left, bottom right, top right -->
-              <polygon points="21,50 1,87 50,87 50,50" id="triangleLeft" class="trianglePart" />
+              <polygon points="16,60 1,87 49,87 49,60" id="triangleLeft" class="trianglePart" />
             </clipPath>
             <clipPath id="rightImage">
               <!-- In order of x,y: top left, bottom left, bottom right, top right -->
-              <polygon points="50,50 50,87 99,87 79,50" id="triangleRight" class="trianglePart" />
+              <polygon points="50.5,60 50.5,87 99,87 83,60" id="triangleRight" class="trianglePart" />
             </clipPath>
 
             <text x="4" y="65" transform="rotate(-60 4,65)">
@@ -120,7 +120,7 @@
         kemikalier, olja och stora mängder vatten som förorenar miljön och försämrar hälsan hos människor som bor runtom industrierna.
         <br><br>Du kan enkelt byta ut dessa material till mer miljövänliga alternativ. Kläder som på riktigt är bra för dig och vår miljö!
       </p>
-      <p id="materialTextMobile" class="text col-12 col-sm-10 col-lg-4 offset-sm-1 offset-lg-7 mb-5 order-lg-3 d-block d-lg-none">
+      <p id="materialTextMobile" class="materialText text col-12 col-sm-10 col-lg-4 offset-sm-1 offset-lg-7 mb-5 order-lg-3 d-block d-lg-none">
         Modeindustrin är både snårig och smutsig innan plagget hänger på galgen. Under tillverkningsprocessen används det ofta mycket
         kemikalier, olja och stora mängder vatten som förorenar miljön och försämrar hälsan hos människor som bor runtom industrierna.
         <br><br>Du kan enkelt byta ut dessa material till mer miljövänliga alternativ. Kläder som på riktigt är bra för dig och vår miljö!

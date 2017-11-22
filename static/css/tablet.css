@@ -9,7 +9,7 @@
   line-height: 45px;
 }
 
-#materialText{
+.materialText{
   position: absolute;
   margin-top: 20%;
   right: 90px;
@@ -45,6 +45,11 @@
 	background-image: -webkit-linear-gradient(90deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
 }
 #triangleSVG{
-  max-height: 470px;
-  max-width: 470px;
+  max-height: 574px;
+  max-width: 662px;
+}
+
+.headerText {
+  text-align: center;
+  transform: scale(1);
 }

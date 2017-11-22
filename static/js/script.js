@@ -8,11 +8,8 @@ $(document).ready(function(){
     }
   });
 
-
-
   //Initialize image slider
   $('.cocoen').cocoen();
-
 
   //Desktop triangle click
   const popupOpen = document.querySelector('.popupOpen');
@@ -21,60 +18,69 @@ $(document).ready(function(){
   const triangleFullImage = document.querySelectorAll('#triangleSVG > image');
   const materialTriangleTitles = document.querySelectorAll('#materialTriangleTitle > tspan');
 
+  const part = document.querySelector('#triangleTop');
+
+  const text = document.querySelectorAll('.materialText');
   const textDesktop = document.querySelector('#materialTextDesktop');
   const textMobile = document.querySelector('#materialTextMobile');
 
   let counter = 0;
+  setTextDefault(text, textDesktop, textMobile);
+  text.forEach(function(t){
+    t.classList.add('transition');
+  });
   popupOpen.addEventListener('click', function(e){
     switch (counter) {
       case 0:
+        part.setAttributeNS(null, 'points', '50,1 16,60 83,60');
+
         counter++;
         setTriangleTitlesLyocell(materialTriangleTitles);
-        setTextLyocell(textDesktop, textMobile);
+        setTextLyocell(text, textDesktop, textMobile);
         fullLyocellBackground(triangleFullImage);
         imageCross(image);
         moveIconTop(circle, image, popupOpen);
-      break;
+        break;
       case 1: /*RESET TRIANGLE*/
         counter++;
         imagePlus(image);
         clearTriangleTitles(materialTriangleTitles);
-        setTextDefault(textDesktop, textMobile);
+        setTextDefault(text, textDesktop, textMobile);
         restoreTriangleBackground(triangleFullImage);
         moveIconLeft(circle, image, popupOpen);
-      break;
+        break;
       case 2:
         counter++;
         setTriangleTitlesPet(materialTriangleTitles);
-        setTextPet(textDesktop, textMobile);
+        setTextPet(text, textDesktop, textMobile);
         fullPetBackground(triangleFullImage);
         imageCross(image);
         moveIconTop(circle, image, popupOpen);
-      break;
+        break;
       case 3: /*RESET TRIANGLE*/
         counter++;
         imagePlus(image);
         clearTriangleTitles(materialTriangleTitles);
-        setTextDefault(textDesktop, textMobile);
+        setTextDefault(text, textDesktop, textMobile);
         restoreTriangleBackground(triangleFullImage);
         moveIconRight(circle, image, popupOpen);
-      break;
+        break;
       case 4:
         counter++;
         setTriangleTitlesCotton(materialTriangleTitles);
-        setTextCotton(textDesktop, textMobile);
+        setTextCotton(text, textDesktop, textMobile);
         fullCottonBackground(triangleFullImage);
         imageCross(image);
         moveIconTop(circle, image, popupOpen);
-      break;
+        break;
       case 5: /*RESET TRIANGLE*/
         counter = 0;
         imagePlus(image);
         clearTriangleTitles(materialTriangleTitles);
-        setTextDefault(textDesktop, textMobile);
+        setTextDefault(text, textDesktop, textMobile);
         restoreTriangleBackground(triangleFullImage);
         moveIconTop(circle, image, popupOpen);
-      break;
+        break;
       default:
         console.error('counter out of bounds');
     }

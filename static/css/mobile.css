@@ -62,7 +62,7 @@ section{
 #triangleSVG > text{
   font-size: .35em;
 }
-#materialText{
+.materialText{
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 1px;

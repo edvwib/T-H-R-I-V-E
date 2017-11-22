@@ -8,11 +8,11 @@
 
 }
 #materialHeader {
-  position: relative;
-  top: 43px;
-  left: 53px;
-  background-size: contain;
-  transform: scale(1.107);
+    position: relative;
+    top: 43px;
+    right: -53px;
+    background-size: contain;
+    transform: scale(1.107);
 }
 
 #footerTitle{

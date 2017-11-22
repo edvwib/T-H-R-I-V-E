@@ -12,7 +12,7 @@
 #materialText{
   position: absolute;
   margin-top: 20%;
-  overflow-y: auto;
+  right: 90px;
   max-height: 520px;
 }
 

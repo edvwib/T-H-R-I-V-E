@@ -180,9 +180,11 @@ nav {
 #footer{
   display: flex;
   align-items: flex-start;
-  height: 100vh;
+  height: auto;
   background-color: #F1F1F1;
+  padding-bottom: 10%;
 }
+
 #footerTitle{
   color: #F49932;
   text-align: center;

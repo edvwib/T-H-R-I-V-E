@@ -196,8 +196,8 @@ nav {
   transition: all .5s;
 }
 .overlay:target{
-  visibility: visible;
-  opacity: 1;
+  visibility: hidden;
+  opacity: 0;
 }
 .popup{
   background-color: rgba(0, 0, 0, .3)

@@ -48,6 +48,17 @@
   transition: 0.5s all ease;
 }
 
+/*SHOPLINK- ANIMSTATE*/
+.row a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.shopLink:hover {
+  border-color: #F8C740;
+  background-color: #ED8700;
+  transition: 0.5s all ease;
+}
 
 /*HEADERS*/
 

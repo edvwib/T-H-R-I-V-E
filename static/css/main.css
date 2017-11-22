@@ -168,7 +168,7 @@ nav {
   transform-origin: 50% 50%;
 }
 .popupOpen circle, .popupOpen image{transition: all 1.5s;}
-#materialText{
+.materialText{
   color: white;
   z-index: 10;
 }

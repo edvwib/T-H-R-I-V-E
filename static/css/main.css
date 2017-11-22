@@ -171,6 +171,7 @@ nav {
 .materialText{
   color: white;
   z-index: 10;
+  position: absolute;
 }
 
 

@@ -1,5 +1,7 @@
 /*General*/
 /*********/
+
+body {overflow-x:hidden;}
 .headerTitle{
   font-size: 144px;
   line-height: 110px;
@@ -20,8 +22,6 @@
 }
 
 #footerTitle{
-  margin-top: 25%;
+  margin-top: 23vh;
 }
-#footer .shopLink{
-  margin-top: -15%;
-}
+

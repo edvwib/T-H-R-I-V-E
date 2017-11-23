@@ -1,5 +1,5 @@
-#materialHeader{
-  max-height: 80vh;
+#materialSection{
+  max-height: 90.5vh;
 }
 #materialHeader > div{
   align-self: flex-start;
@@ -15,8 +15,6 @@
   right: 90px;
   max-height: 520px;
 }
-
-
 
 /*popups*/
 .overlay:target{

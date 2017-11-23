@@ -44,7 +44,7 @@
   font-size: 26px;
   line-height: 74px;
   text-align: center;
-  margin-top: -18%;
+  margin-top: -8%;
   transition: 0.5s all ease;
 }
 
@@ -101,8 +101,6 @@ nav {
 }
 #materialHeader{
   background: url('../../img/materials/headerBackground.jpg');
-  /* background-position-x: 100%; */
-  /* background-position-y: 40%; */
   background-repeat: no-repeat;
   width: 100%;
   background-size: cover;
@@ -138,6 +136,7 @@ nav {
 #materialSection{
   background-color: #64CBD5;
   display: flex;
+  max-height: 90.5vh;
 }
 #materialTitle{
   color: white;
@@ -201,7 +200,7 @@ nav {
 
 .outro-text {
     margin: 0 auto;
-    margin-top: 15%;
+    margin-top: 25%;
     text-align: center;
 }
 

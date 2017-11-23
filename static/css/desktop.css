@@ -6,16 +6,7 @@ body {overflow-x:hidden;}
   font-size: 144px;
   line-height: 110px;
 }
-.text{
 
-}
-#materialHeader {
-    position: relative;
-    top: 43px;
-    right: -53px;
-    background-size: contain;
-    transform: scale(1.107);
-}
 .materialText{
   margin-top: 215px;
   padding-left: 50px;

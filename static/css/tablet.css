@@ -9,13 +9,16 @@
   line-height: 45px;
 }
 
+.text{
+  font-size: 18px;
+}
 .materialText{
   position: absolute;
   margin-top: 20%;
-  left: 18px;
+  padding-left: 150px;
   max-height: 520px;
-  max-width: 380px;
 }
+
 
 /*popups*/
 .overlay:target{
@@ -36,12 +39,6 @@
 {
 	width: 10px;
 	background-color: #F5F5F5;
-}
-
-#materialText::-webkit-scrollbar-thumb
-{
-	background-color: #F90;
-	background-image: -webkit-linear-gradient(90deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
 }
 #triangleSVG{
   max-height: 574px;

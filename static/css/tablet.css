@@ -12,8 +12,9 @@
 .materialText{
   position: absolute;
   margin-top: 20%;
-  right: 90px;
+  left: 18px;
   max-height: 520px;
+  max-width: 380px;
 }
 
 /*popups*/
@@ -50,4 +51,8 @@
 .headerText {
   text-align: center;
   transform: scale(1);
+}
+
+.outro-text{
+  margin-left: 0;
 }

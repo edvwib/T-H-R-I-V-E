@@ -1,7 +1,14 @@
 /*General*/
 /*********/
 
-body {overflow-x:hidden;}
+html{
+  background-color: #F1F1F1;
+}
+body {
+  overflow-x:hidden;
+  max-width: 1366px;
+  margin: auto;
+}
 .headerTitle{
   font-size: 144px;
   line-height: 110px;
@@ -9,7 +16,6 @@ body {overflow-x:hidden;}
 
 .materialText{
   margin-top: 215px;
-  padding-left: 50px;
 }
 
 #footerTitle{

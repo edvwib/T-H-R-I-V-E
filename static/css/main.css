@@ -136,7 +136,6 @@ nav {
 #materialSection{
   background-color: #64CBD5;
   display: flex;
-  max-height: 90.5vh;
 }
 #materialTitle{
   color: white;
@@ -199,9 +198,9 @@ nav {
 }
 
 .outro-text {
-    margin: 0 auto;
+    margin-left: -10%;
     margin-top: 25%;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .headerText {

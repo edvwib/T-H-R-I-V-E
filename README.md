@@ -1,4 +1,4 @@
-# T-H-R-I-V-E
+# T H R I V E
 ### This is a landing page for the store [T H R I V E](http://www.thrivestore.se/)
 ### The goals for the landing page were to...
 - ...educate in the field of sustainable clothing.
